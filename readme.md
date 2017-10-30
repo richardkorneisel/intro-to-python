@@ -263,9 +263,8 @@ else:
 
 ### You Do: Data Types Exercises
 <!-- TODO finish this -->
-Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-wdi-exercises/ruby-basics-exercises).
+Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
-If you finish this section early, feel free to try out one of the [Additional Exercises](https://git.generalassemb.ly/ga-wdi-lessons/ruby-intro#additional-practice) located at the bottom of the lesson plan.
 
 ### We Do: Python Bouncer
 
@@ -449,9 +448,8 @@ list(range(1, 6))
 > 15 minutes exercise. 5 minutes review. 
 
 <!-- TODO finish these -->
-Complete the second set of exercises (Exercise II: Data Collections) in [this repo](https://git.generalassemb.ly/ga-wdi-exercises/ruby-basics-exercises).
+Complete the second set of exercises (Exercise II: Data Collections) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
-If you finish this section early, feel free to try out one of the [Additional Exercises](https://git.generalassemb.ly/ga-wdi-lessons/ruby-intro#additional-practice) located at the bottom of the lesson plan.
 
 ## Functions
 (10 minutes / 1:55)
@@ -493,7 +491,7 @@ double()
 > 15 minutes exercise. 10 minutes review.
 
 <!-- TODO convert this -->
-[Temperature Converter (Ruby)](https://git.generalassemb.ly/ga-wdi-exercises/temperature_converter_ruby)
+[Temperature Converter (Python)](https://git.generalassemb.ly/ga-dc-wdi-python/temperature-converter-python)
 
 ## Compare and Contrast, Part 2
 ( 10 minutes / 2:30 )
