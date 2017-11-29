@@ -47,6 +47,12 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 
+## Install Python
+
+```
+$ brew install python3
+```
+
 ## Interacting with Python
 
 #### By File
@@ -226,7 +232,7 @@ Comparison operators in Python are nearly identical to JavaScript. However, the 
 * `<`, `>`, `<=`, `>=`, `==`, `!=`
 
 Logical operators are also similar.
-* `!`, `&&`, `||`
+* and, or, not
 
 |                      |        JavaScript                          |        Python               |
 |:---------------------|:------------------------------------:|:---------------------------:|
@@ -244,7 +250,7 @@ Python's "nothing".
 Pretty similar to Javascript, with some differences.
 * No parentheses or curly brackets required
 * Begin blocks using `if`, `elif` and `else`
-* Indentation matters! It 
+* Indentation matters!
 
 Here's an example where we check for height at a roller coaster...
 
@@ -400,14 +406,14 @@ wdi_class = {
 }  
 ```
 
-Accessing hash values...  
+Accessing dictionary values...  
 
 ```py
 wdi_class["teacher"]
 # => "John"
 ```
 
-Modifying hash values...
+Modifying dictionary values...
 
 ```py
 wdi_class["teacher"] = "Jack"
