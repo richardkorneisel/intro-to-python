@@ -68,10 +68,10 @@ $ python app.py   # Run that Python file
 
 The second way that we can interact with Python code is with a tools like  IPython and the Python shell. These are both REPLs.
 
-1. Install: $ pip3 install ipython
-2. Run REPL: $ ipython
-3. Quit from REPL: exit
-4. Alternative: $ python
+1. Install: `$ pip3 install ipython`
+2. Run REPL: `$ ipython`
+3. Quit from REPL: `exit`
+4. Alternative: `$ python`
 
 > IPython is an alternative Python shell that adds a bunch of features like tab completion, better syntax highlighting, and the ability to inline embed graphics.
 
@@ -216,11 +216,11 @@ class_number = 20
 # => "I am teaching WDI 20."
 
 awkward_nerd = "Lauren"
-awesome_nerd = "Jason"
+awesome_nerd = "Frank"
 occupation = "consultant"
 
 "{0} is a {1}. {2} is a {1} as well.".format(awkward_nerd, occupation, awesome_nerd)
-# => "Lauren is a consultant. Jason is a consultant as well."
+# => "Lauren is a consultant. Frank is a consultant as well."
 ```
 
 ### Booleans
