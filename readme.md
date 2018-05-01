@@ -384,7 +384,7 @@ sorted(numbers)
 numbers = [3, 1, 2, 2, 4]
 # => [3, 1, 2, 2, 4]
 
-numbers.delete(2)
+numbers.remove(2)
 # => 2
 
 numbers
