@@ -299,6 +299,9 @@ user_input
 
 * If you need to convert your value to a number, run the `int()` function on it!
 
+### You Do: Data Types Exercises
+Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
+
 
 ### List
 
@@ -390,9 +393,6 @@ numbers.remove(2)
 numbers
 # => [3, 1, 2, 4]
 ```
-
-### You Do: Data Types Exercises
-Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
 ### Loops
 
