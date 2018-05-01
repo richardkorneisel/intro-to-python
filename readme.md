@@ -103,7 +103,7 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 
 > **Why do we have to read all this ourselves?**
 >
-> While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with Javascript to pick up on this information yourself pretty quickly.
+> While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.
 >
 > Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.
 
@@ -112,7 +112,7 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 Everything in Python is an **object**.
 * By "object" we mean that everything has its own set of properties and methods
 * Not a new concept. Some data types in JavaScript had their own properties and methods (e.g., `string.length`)
-* You will learn more about this when you dive into Python OOP next week
+* You will learn more about this when you dive into Python OOP later today
 
 ### Numbers
 
@@ -210,17 +210,24 @@ in the order passed in. If they contain a number (beginning with 0), they will
 be mapped to the parameter passed to `.format()` at said index.
 
 ```python
-class_number = 20
+class_number = 22
 
 "I am teaching WDI {}.".format(class_number)
-# => "I am teaching WDI 20."
+# => "I am teaching WDI 22."
 
-awkward_nerd = "Lauren"
-awesome_nerd = "Frank"
+person1 = "Lauren"
+person2 = "Frank"
 occupation = "consultant"
 
-"{0} is a {1}. {2} is a {1} as well.".format(awkward_nerd, occupation, awesome_nerd)
+"{0} is a {1}. {2} is a {1} as well.".format(person1, occupation, person2)
 # => "Lauren is a consultant. Frank is a consultant as well."
+```
+
+F strings are also a brand new way of doing string interpolation in Python -- you won't see them in many places, but they are super helpful.
+
+```py
+class_number = 22
+print("I am teaching WDI {class_number}.")
 ```
 
 ### Booleans
@@ -267,11 +274,6 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
-### You Do: Data Types Exercises
-<!-- TODO finish this -->
-Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
-
-
 ### We Do: Python Bouncer
 
 Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. Walk me through how to do the same, but now with Python!
@@ -280,14 +282,14 @@ Back during our first few lessons on JavaScript, you used conditionals and varia
 
 To print out to the console like `console.log()` does in JavaScript, we use the `print` function:
 
-```rb
+```pt
 print("Hello, World!")
 # Hello, World!
 ```
 
 Python also makes it easy for us to accept user input from the command line using `input`:
 
-```rb
+```py
 user_input = input()
 # => "My input" (Note that this line was typed by the user in the terminal)
 
@@ -389,6 +391,10 @@ numbers
 # => [3, 1, 2, 4]
 ```
 
+### You Do: Data Types Exercises
+Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
+
+
 ### Dictionary
 
 A Python dictionary is an unordered collection organized by key-value pairs. A dictionary is very similar to a Javascript object.
@@ -431,7 +437,7 @@ Like lists, Python also provides us with a library of dictionary methods.
 
 Returns a `dict_keys` structure with all the keys in the dictionary. Can easily be translated to a list using `list()`.
 
-```rb
+```py
 wdi_class.keys()
 # => dict_keys(['teacher', 'students', 'classroom', 'in_session', 'schedule'])
 ```
@@ -443,7 +449,7 @@ Use ranges to quickly generate lists of numbers.
 * Min and max value - 1 inside `range`
 * Generate list using `list()` function
 
-```rb
+```py
 list(range(1, 6))
 # => [1, 2, 3, 4, 5]
 ```
@@ -462,7 +468,7 @@ Complete the second set of exercises (Exercise II: Data Collections) in [this re
 
 
 In Python, functions are defined like this:
-```rb
+```py
 def double(number):
     return number * 2
 ```
@@ -473,7 +479,7 @@ Components
 * `number` - the parameter name in the above example
 
 We invoke it like this:
-```
+```py
 double(3)
 # => 6
 ```
@@ -483,7 +489,7 @@ You may have noticed that we use the same `return` notation as Javascript.
 Python functions can also establish default argument values.
 * In the below example, if we do not provide our `double` function with an argument, it will default to 5
 
-```rb
+```py
 def double(number=5):
     return number * 2
 
@@ -496,15 +502,12 @@ double()
 
 > 15 minutes exercise. 10 minutes review.
 
-<!-- TODO convert this -->
 [Temperature Converter (Python)](https://git.generalassemb.ly/ga-dc-wdi-python/temperature-converter-python)
 
 ## Compare and Contrast, Part 2
 ( 10 minutes / 2:30 )
 
-Break out in to groups of 3-4, this time by creating a group that has at least one person who was each number 1 through 4 from the first exercise (i.e. one #1, one #2, one #3, and one #4 in each group).
-
-With your group, compare and contrast again what you know about JavaScript with what you now know about Python on the whiteboard. You can do this with a table, a mind map or however you think is best.
+Break out in to groups of 3, then, with your group, compare and contrast again what you know about JavaScript with what you now know about Python on the whiteboard. You can do this with a table, a mind map or however you think is best.
 
 ### Leading Questions
 
