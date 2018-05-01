@@ -367,7 +367,7 @@ numbers.pop(0)
 
 Organizes list values from lowest to highest. Numbers and strings.
 
-```rb
+```py
 numbers = [3, 1, 5, 2, 4]
 # => [3, 1, 5, 2, 4]
 
@@ -380,7 +380,7 @@ sorted(numbers)
 * Removes an argument from an array
 * If there are multiple instances of that argument, it will delete just the first.
 
-```rb
+```py
 numbers = [3, 1, 2, 2, 4]
 # => [3, 1, 2, 2, 4]
 
@@ -394,6 +394,54 @@ numbers
 ### You Do: Data Types Exercises
 Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
+### Loops
+
+Python has `for` loops and `while` loops, similar to JavaScript. For loops work more like JavaScript's `forEach` iterator, though. Instead of looping through the indecies, you loop through the items.
+
+```py
+wdi22 = ['Ali', 'James', 'Christena', 'Jason', 'Peterson', 'Matt', 'Minh', 'Meron']
+
+for person in wdi22:
+    print(person)
+    
+> 'Ali'
+> 'James'
+...
+```
+
+To get the index as well you can use the  `enumerate` function.
+
+```py
+wdi22 = ['Ali', 'James', 'Christena', 'Jason', 'Peterson', 'Matt', 'Minh', 'Meron']
+
+for index, person in enumerate(wdi22):
+    print(index, person)
+    
+> 0 'Ali'
+> 1 'James'
+...
+```
+
+While works the same way as it does in JavaScript.
+
+```py
+number = 0
+
+while number < 10:
+    print(number)
+    number += 1
+    
+> 0
+> 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+```
 
 ### Dictionary
 
@@ -459,7 +507,6 @@ list(range(1, 6))
 
 > 15 minutes exercise. 5 minutes review. 
 
-<!-- TODO finish these -->
 Complete the second set of exercises (Exercise II: Data Collections) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
 
