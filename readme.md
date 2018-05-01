@@ -61,7 +61,7 @@ The first way that we can interact with Python is by running a Python file. Pyth
 
 ```
 $ touch app.py  # Create a Python file
-$ python app.py   # Run that Python file
+$ python3 app.py   # Run that Python file
 ```
 
 #### By REPL
