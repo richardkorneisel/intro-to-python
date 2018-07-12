@@ -118,7 +118,7 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 
 > **Why do we have to read all this ourselves?**
 >
-> While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with Javascript to pick up on this information yourself pretty quickly.
+> While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.
 >
 > Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.
 
@@ -228,20 +228,27 @@ concatenated as its parameters. If the string contains `{}`s, the parameters fil
 in the order passed in. If they contain a number (beginning with 0), they will
 be mapped to the parameter passed to `.format()` at said index.
 
-> Is there a similar way to do this in javascript?
+> Is there a similar way to format strings in javascript?
 
 ```python
-class_number = 20
+class_number = 22
 
 "I am teaching WDI {}.".format(class_number)
-# => "I am teaching WDI 20."
+# => "I am teaching WDI 22."
 
-awkward_nerd = "Lauren"
-awesome_nerd = "Frank"
+person1 = "Lauren"
+person2 = "Frank"
 occupation = "consultant"
 
-"{0} is a {1}. {2} is a {1} as well.".format(awkward_nerd, occupation, awesome_nerd)
+"{0} is a {1}. {2} is a {1} as well.".format(person1, occupation, person2)
 # => "Lauren is a consultant. Frank is a consultant as well."
+```
+
+F strings are also a brand new way of doing string interpolation in Python -- you won't see them in many places, but they are super helpful.
+
+```py
+class_number = 22
+print("I am teaching WDI {class_number}.")
 ```
 
 ### Booleans
@@ -401,7 +408,7 @@ numbers.pop(0)
 
 Organizes list values from lowest to highest. Numbers and strings.
 
-```rb
+```py
 numbers = [3, 1, 5, 2, 4]
 # => [3, 1, 5, 2, 4]
 
@@ -414,11 +421,11 @@ sorted(numbers)
 - Removes an argument from an array
 - If there are multiple instances of that argument, it will delete just the first.
 
-```rb
+```py
 numbers = [3, 1, 2, 2, 4]
 # => [3, 1, 2, 2, 4]
 
-numbers.delete(2)
+numbers.remove(2)
 # => 2
 
 numbers
@@ -468,7 +475,7 @@ Like lists, Python also provides us with a library of dictionary methods.
 
 Returns a `dict_keys` structure with all the keys in the dictionary. Can easily be translated to a list using `list()`.
 
-```rb
+```py
 wdi_class.keys()
 # => dict_keys(['teacher', 'students', 'classroom', 'in_session', 'schedule'])
 ```
@@ -481,7 +488,7 @@ Use ranges to quickly generate lists of numbers.
 - Min and max value - 1 inside `range`
 - Generate list using `list()` function
 
-```rb
+```py
 list(range(1, 6))
 # => [1, 2, 3, 4, 5]
 ```
@@ -520,7 +527,7 @@ Python functions can also establish default argument values.
 
 - In the below example, if we do not provide our `double` function with an argument, it will default to 5
 
-```rb
+```py
 def double(number=5):
     return number * 2
 
@@ -536,9 +543,7 @@ double()
 
 ## Compare and Contrast, Part 2 (10 min / 2:30)
 
-Break out in to groups of 3-4, this time by creating a group that has at least one person who was each number 1 through 4 from the first exercise (i.e. one #1, one #2, one #3, and one #4 in each group).
-
-With your group, compare and contrast again what you know about JavaScript with what you now know about Python on the whiteboard. You can do this with a table, a mind map or however you think is best.
+Break out in to groups of 3, then, with your group, compare and contrast again what you know about JavaScript with what you now know about Python on the whiteboard. You can do this with a table, a mind map or however you think is best.
 
 ### Leading Questions
 
