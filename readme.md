@@ -1,30 +1,35 @@
 # Intro To Python
 
 ## Learning Objectives
-* Review the history and background of the Python programming language
-* Compare/contrast Python and JavaScript
-Learn how to run Python code by file and in a REPL
-* Review various parts of the Python Language, including:
-    * Syntax
-    * Variables
-    * Fundamental Data Types
-    * Collections
-    * Conditionals
-    * Functions
 
-## Framing
+- Review the history and background of the Python programming language
+- Compare/contrast Python and JavaScript
+  Learn how to run Python code by file and in a REPL
+- Review various parts of the Python Language, including:
+  - Syntax
+  - Variables
+  - Fundamental Data Types
+  - Collections
+  - Conditionals
+  - Functions
+
+## Framing (5 min / 0:05)
 
 ### What is Python?
+
 Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the fifth most used programming language behind Java, C, C++, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
 
 Python has a couple attributes that make it unique:
-* Meaningful Whitespace -- indentation signifies code blocks
-* Duck typing -- the types of variables are inferred rather than explicitly declared
-* Community -- there are **so** many Python libraries 
-* Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language
+
+- Meaningful Whitespace -- indentation signifies code blocks
+- Duck typing -- the types of variables are inferred rather than explicitly declared
+- Community -- there are **so** many Python libraries
+- Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language
 
 ### The Zen of Python
+
 Tim Peters, one of the original Python users wrote the following poem on the philosophy behind the Python language.
+
 ```
 Beautiful is better than ugly.
 Explicit is better than implicit.
@@ -47,33 +52,43 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 
+## Check if Python is installed
+
+```
+$ which python3
+```
+
+If it's not installed, go ahead and do that!
+
 ## Install Python
 
 ```
 $ brew install python3
 ```
 
-## Interacting with Python
+## Interacting with Python (5 min / 0:10)
 
-#### By File
+### By File
 
 The first way that we can interact with Python is by running a Python file. Python files have the extension .py and can be run through the command line:
 
 ```
 $ touch app.py  # Create a Python file
-$ python app.py   # Run that Python file
+$ python3 app.py   # Run that Python file
 ```
 
-#### By REPL
+### By REPL
 
-The second way that we can interact with Python code is with a tools like  IPython and the Python shell. These are both REPLs.
+The second way that we can interact with Python code is with a tools like IPython or the Python shell. These are both REPLs.
 
-1. Install: `$ pip3 install ipython`
-2. Run REPL: `$ ipython`
-3. Quit from REPL: `exit`
-4. Alternative: `$ python`
+1.  Install: `$ pip3 install ipython`
+2.  Run REPL: `$ ipython`
+3.  Quit from REPL: `exit`
+4.  Alternative: `$ python`
 
 > IPython is an alternative Python shell that adds a bunch of features like tab completion, better syntax highlighting, and the ability to inline embed graphics.
+
+We'll use iPython for the first portion of this lesson.
 
 ## Fundamental Data Types
 
@@ -87,17 +102,17 @@ my_favorite_animal = "flying squirrel"
 ```
 
 Notice a few other things about the above block of code:
-* We no longer need to precede new variables with `var`. Just use the name of the variable!
-* Variables are instantiated as they are used
-* Variables are also written in `snake_case`. That means all lower case with words separated by underscores.
-* Variable names should still be semantic
+
+- We no longer need to precede new variables with `var`, `let`, or `const`. Just use the name of the variable!
+- Variables are instantiated as they are used
+- Variables are also written in `snake_case`. That means all lower case with words separated by underscores.
+- Variable names should still be semantic
 
 ### No Semicolons
 
 While your code will work if you close a line with `;`, common practice is not to use them.
 
-## You Do: Data Types
-(15 minutes / 0:45)
+## You Do: Data Types (15 minutes / 0:25)
 
 Spend 15 minutes reading through everything up until the **Data Types Exercises** section below this one.
 
@@ -110,15 +125,17 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 ### Everything Is An Object!
 
 Everything in Python is an **object**.
-* By "object" we mean that everything has its own set of properties and methods
-* Not a new concept. Some data types in JavaScript had their own properties and methods (e.g., `string.length`)
-* You will learn more about this when you dive into Python OOP next week
+
+- By "object" we mean that everything has its own set of properties and methods
+- Not a new concept. Some data types in JavaScript had their own properties and methods (e.g., `string.length`)
+- You will learn more about this when you dive into Python OOP next week
 
 ### Numbers
 
 Python uses similar arithmetic operators to JavaScript
-* `+`, `-`, `*`, `/`, `%`
-* Same order of operations too: P.E.M.D.A.S.  
+
+- `+`, `-`, `*`, `/`, `%`
+- Same order of operations too: P.E.M.D.A.S.
 
 ```py
 1 + 2 # Addition
@@ -146,13 +163,14 @@ Python uses similar arithmetic operators to JavaScript
 # => 9
 ```
 
-> Notice the use of `**` to perform exponential operations in Python. We don't have this shortcut widely available [in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow) yet.
+> Are any of these different in javascript?
 
 ### Strings
 
 Words, just like in Javascript.
-* Surrounded by single or double-quotes
-* Python uses similar escape characters
+
+- Surrounded by single or double-quotes
+- Python uses similar escape characters
   - [Here is a list of them](http://python-reference.readthedocs.io/en/latest/docs/str/escapes.html)
 
 ```py
@@ -201,13 +219,16 @@ print("I am teaching WDI " + class_number)
 # TypeError: must be str, not int
 ```
 
-In cases like the above, you either need to convert the variable to a string using `str()` or use the `.format()` method. 
+This is something javascript would just handle for you, but python is more strict.
+In this case, you either need to convert the variable to a string using `str()` or use the `.format()` method.
 The best way of doing string interpolation in Python is using `.format()`.
 
 `.format()` is a string method that takes the strings to be
 concatenated as its parameters. If the string contains `{}`s, the parameters fill the `{}`s
 in the order passed in. If they contain a number (beginning with 0), they will
 be mapped to the parameter passed to `.format()` at said index.
+
+> Is there a similar way to do this in javascript?
 
 ```python
 class_number = 20
@@ -226,36 +247,42 @@ occupation = "consultant"
 ### Booleans
 
 They are `True` and `False` (note the capitals!).
-* We'll be using them in conditionals and comparisons just like in JavaScript
+
+- We'll be using them in conditionals and comparisons just like in JavaScript
 
 Comparison operators in Python are nearly identical to JavaScript. However, the check for equality is always for both value and data type.
-* `<`, `>`, `<=`, `>=`, `==`, `!=`
+
+- `<`, `>`, `<=`, `>=`, `==`, `!=`
+
+> In Javascript, what is the difference between `==` and `===` ?
 
 Logical operators are also similar.
-* and, or, not
 
-|                      |        JavaScript                          |        Python               |
-|:---------------------|:------------------------------------:|:---------------------------:|
-| logical operators    | `&&`, <code>&#124;&#124;</code>, `!` | `and`, `or`, `not`          |
-| relational operators | `==` `!=` `>` `<` `>=` `<=` `===`         | `==` `!=` `>` `<` `>=` `<=` |
+- and, or, not
+
+|                      |              JavaScript              |           Python            |
+| :------------------- | :----------------------------------: | :-------------------------: |
+| logical operators    | `&&`, <code>&#124;&#124;</code>, `!` |     `and`, `or`, `not`      |
+| relational operators |  `==` `!=` `>` `<` `>=` `<=` `===`   | `==` `!=` `>` `<` `>=` `<=` |
 
 ### None
 
 Python's "nothing".
-* The equivalent of JavaScript's `null`
-* it is falsey
+
+- The equivalent of JavaScript's `null`
+- it is falsey
 
 ### Conditionals
 
 Pretty similar to Javascript, with some differences.
-* No parentheses or curly brackets required
-* Begin blocks using `if`, `elif` and `else`
-* Indentation matters!
+
+- No parentheses or curly brackets required
+- Begin blocks using `if`, `elif` and `else`
+- Indentation matters! 4 spaces is the standard indent.
 
 Here's an example where we check for height at a roller coaster...
 
 ```py
-
 print("Welcome to the Iron Rattler! How tall are you (in feet)?")
 height = int(input())
 
@@ -267,27 +294,34 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
-### You Do: Data Types Exercises
-<!-- TODO finish this -->
-Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
-
-
-### We Do: Python Bouncer
+## We Do: Python Bouncer (10 min / 0:40)
 
 Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. Walk me through how to do the same, but now with Python!
 
-### `print` and `input`
+Here's the recap of the bouncer rules:
+
+> If the age variable is below 21, the program should output that the person cannot enter because they are too young, if they are over 21 they can enter, and if age is not a number it outputs an error.
+>
+> Bonus: if age is 18 or older, but under 21, output that the person can enter the bar but cannot drink!
+
+## You Do: Data Types Exercises (20 min / 1:00)
+
+Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
+
+## Break (10 min / 1:10)
+
+## `print` and `input` (5 min / 1:15)
 
 To print out to the console like `console.log()` does in JavaScript, we use the `print` function:
 
-```rb
+```python
 print("Hello, World!")
 # Hello, World!
 ```
 
 Python also makes it easy for us to accept user input from the command line using `input`:
 
-```rb
+```python
 user_input = input()
 # => "My input" (Note that this line was typed by the user in the terminal)
 
@@ -295,15 +329,15 @@ user_input
 # => "My input"
 ```
 
-* If you need to convert your value to a number, run the `int()` function on it!
+- If you need to convert your value to a number, run the `int()` function on it!
 
-
-### List
+## List (15 min / 1:30)
 
 An ordered collection of related values. Same syntax as Javascript arrays.
-* Square brackets
-* Values separated by commas
-* Zero-indexed
+
+- Square brackets
+- Values separated by commas
+- Zero-indexed
 
 ```python
 numbers = [1, 2, 3]
@@ -322,21 +356,23 @@ animals
 # => ["dog", "elephant", "horse"]
 ```
 
-#### List Methods
+### List Methods
 
 Python is very nice. It provides us with an extensive library of list methods we can use to traverse and manipulate arrays.
-* The Python [documentation](https://docs.python.org/3/tutorial/datastructures.html) for `List` is a great resource for learning more about these methods
-* Can't go over them all, but chances are if you could do it in Javascript then you can do it in Python.
 
-**IMPORTANT:** You DO NOT need to memorize these. The following is just a sample of array methods available to you. You'll come to be more familiar with these as you need them and look them up in documentation.  
+- The Python [documentation](https://docs.python.org/3/tutorial/datastructures.html) for `List` is a great resource for learning more about these methods
+- Can't go over them all, but chances are if you could do it in Javascript then you can do it in Python.
 
-> **tl;dr:** The more you Google them, the better you'll remember them.  
+**IMPORTANT:** You DO NOT need to memorize these. The following is just a sample of array methods available to you. You'll come to be more familiar with these as you need them and look them up in documentation.
 
-##### Append/Extend/Pop
+> **tl;dr:** The more you Google them, the better you'll remember them.
 
-* Append inserts an item into the end of the list.
-* Extend adds two arrays together.
-* Pop removes an item from the end of the list. You can also supply an index to `pop` to remove at that index.
+#### Append/Extend/Pop
+
+- Append inserts an item into the end of the list.
+- Extend adds two arrays together.
+- Pop removes an item from the end of the list. You can also supply an index to `pop` to remove at that index.
+
 ```py
 numbers = [1, 2, 3, 4, 5]
 # => [1, 2, 3, 4, 5]
@@ -361,7 +397,7 @@ numbers.pop(0)
 # => [2, 3, 4, 5, 6, [1, 2, 3], 7, 8]
 ```
 
-##### Sorted
+#### Sorted
 
 Organizes list values from lowest to highest. Numbers and strings.
 
@@ -373,10 +409,10 @@ sorted(numbers)
 # => [1, 2, 3, 4, 5]
 ```
 
-##### Remove
+#### Delete
 
-* Removes an argument from an array
-* If there are multiple instances of that argument, it will delete just the first.
+- Removes an argument from an array
+- If there are multiple instances of that argument, it will delete just the first.
 
 ```rb
 numbers = [3, 1, 2, 2, 4]
@@ -389,7 +425,7 @@ numbers
 # => [3, 1, 2, 4]
 ```
 
-### Dictionary
+## Dictionary (10 min / 1:40)
 
 A Python dictionary is an unordered collection organized by key-value pairs. A dictionary is very similar to a Javascript object.
 
@@ -406,7 +442,7 @@ wdi_class = {
 }  
 ```
 
-Accessing dictionary values...  
+Accessing dictionary values...
 
 ```py
 wdi_class["teacher"]
@@ -420,14 +456,15 @@ wdi_class["teacher"] = "Jack"
 # => "Jack"
 ```
 
-#### Dictionary Methods
+### Dictionary Methods
 
-Like lists, Python also provides us with a library of dictionary methods.  
-* [Again, the Python documentation is a great resource](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+Like lists, Python also provides us with a library of dictionary methods.
 
-> As mentioned with lists, do not worry about memorizing these methods. Just know how to look them up should the need arise.  
+- [Again, the Python documentation is a great resource](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 
-##### Keys
+> As mentioned with lists, do not worry about memorizing these methods. Just know how to look them up should the need arise.
+
+#### Keys
 
 Returns a `dict_keys` structure with all the keys in the dictionary. Can easily be translated to a list using `list()`.
 
@@ -436,52 +473,52 @@ wdi_class.keys()
 # => dict_keys(['teacher', 'students', 'classroom', 'in_session', 'schedule'])
 ```
 
-### Ranges
+## Ranges
 
 Use ranges to quickly generate lists of numbers.
-* Parentheses
-* Min and max value - 1 inside `range`
-* Generate list using `list()` function
+
+- Parentheses
+- Min and max value - 1 inside `range`
+- Generate list using `list()` function
 
 ```rb
 list(range(1, 6))
 # => [1, 2, 3, 4, 5]
 ```
 
-## You Do: Data Collections Exercises
-(20 minutes / 1:45)
+## You Do: Data Collections Exercises (20 min / 2:00)
 
-> 15 minutes exercise. 5 minutes review. 
+> 15 minutes exercise. 5 minutes review.
 
-<!-- TODO finish these -->
 Complete the second set of exercises (Exercise II: Data Collections) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
-
-## Functions
-(10 minutes / 1:55)
-
+## Functions (10 minutes / 2:10)
 
 In Python, functions are defined like this:
+
 ```rb
 def double(number):
     return number * 2
 ```
 
 Components
-* `def` - the Python equivalent of `function`
-* `double` - the function name in the above example
-* `number` - the parameter name in the above example
+
+- `def` - the Python equivalent of `function`
+- `double` - the function name in the above example
+- `number` - the parameter name in the above example
 
 We invoke it like this:
+
 ```
 double(3)
 # => 6
 ```
 
-You may have noticed that we use the same `return` notation as Javascript. 
+You may have noticed that we use the same `return` notation as Javascript.
 
 Python functions can also establish default argument values.
-* In the below example, if we do not provide our `double` function with an argument, it will default to 5
+
+- In the below example, if we do not provide our `double` function with an argument, it will default to 5
 
 ```rb
 def double(number=5):
@@ -491,16 +528,13 @@ double()
 # => 10
 ```
 
-## Exercise: Temperature Converter
-(25 minutes / 2:20)
+## You do: Exercise: Temperature Converter (25 minutes / 2:20)
 
 > 15 minutes exercise. 10 minutes review.
 
-<!-- TODO convert this -->
 [Temperature Converter (Python)](https://git.generalassemb.ly/ga-dc-wdi-python/temperature-converter-python)
 
-## Compare and Contrast, Part 2
-( 10 minutes / 2:30 )
+## Compare and Contrast, Part 2 (10 min / 2:30)
 
 Break out in to groups of 3-4, this time by creating a group that has at least one person who was each number 1 through 4 from the first exercise (i.e. one #1, one #2, one #3, and one #4 in each group).
 
@@ -508,7 +542,6 @@ With your group, compare and contrast again what you know about JavaScript with 
 
 ### Leading Questions
 
-* What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?
-* Describe the difference between what is truthy/falsey in Python vs JavaScript?
-* How would you add a key / value pair to an existing dictionary? How is this different from adding a key / value pair to an existing object in JavaScript?
-
+- What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?
+- Describe the difference between what is truthy/falsey in Python vs JavaScript?
+- How would you add a key / value pair to an existing dictionary? How is this different from adding a key / value pair to an existing object in JavaScript?
