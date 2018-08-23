@@ -134,12 +134,12 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 
 <details>
 <summary>Why do we have to read all this ourselves?</summary>
-> **Why do we have to read all this ourselves?**
+> **Why do we have to read all this ourselves?**</br>
 >
-> While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.
+> While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.</br>
 >
-> Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.
-> I will come by and check your understanding one-on-one and ask you questions
+> Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.</br>
+> I will come by and check your understanding one-on-one and ask you questions</br>
 </details>
 
 ## In Class Checkpoints
