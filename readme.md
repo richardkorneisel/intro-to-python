@@ -18,6 +18,15 @@
   - Functions
   </details>
 
+
+<details>
+<summary>In Class Checkpoints:</summary>
+- An basic statement in js vs python</br>
+- A basic loop in js vs python</br>
+- A function in js vs python</br>
+</details>
+
+
 ## Framing (5 min / 0:05)
 
 ### What is Python?
