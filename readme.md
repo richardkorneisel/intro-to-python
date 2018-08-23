@@ -31,7 +31,7 @@
 
 ### What is Python?
 
-Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the fifth most used programming language behind Java, C, C++, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
+Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the [2nd](https://www.codingdojo.com/blog/7-most-in-demand-programming-languages-of-2018/) most used programming language behind Java, C, C++, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
 
 Python has a couple attributes that make it unique:
 
