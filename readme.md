@@ -23,6 +23,7 @@
 <summary>In Class Checkpoints:</summary>
 - An basic statement in js vs python</br>
 - A basic loop in js vs python</br>
+- Creating a variable in js vs python</br>
 - A function in js vs python</br>
 </details>
 
@@ -131,11 +132,17 @@ While your code will work if you close a line with `;`, common practice is not t
 
 Spend 15 minutes reading through everything up until the **Data Types Exercises** section below this one.
 
+<details>
+<summary>Why do we have to read all this ourselves?</summary>
 > **Why do we have to read all this ourselves?**
 >
 > While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.
 >
 > Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.
+> I will come by and check your understanding one-on-one and ask you questions
+</details>
+
+## In Class Checkpoints
 
 ### Everything Is An Object!
 
