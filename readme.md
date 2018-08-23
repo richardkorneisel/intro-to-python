@@ -142,6 +142,7 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 - Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.</br>
 -  I will come by and check your understanding one-on-one and ask you questions</br></br>
 </details>
+</br>
 
 ## In Class Checkpoints
 </br>
