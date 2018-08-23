@@ -33,12 +33,13 @@
 
 Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the [fourth](https://stackify.com/popular-programming-languages-2018/?utm_referrer=https%3A%2F%2Fwww.google.com%2F) most used programming language behind Java, C, C++, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
 
-Python has a couple attributes that make it unique:
-
+<details>
+<summary>Python has a couple attributes that make it unique:</summary>
 - Meaningful Whitespace -- indentation signifies code blocks
 - Duck typing -- the types of variables are inferred rather than explicitly declared
 - Community -- there are **so** many Python libraries
 - Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language
+</details>
 
 ### The Zen of Python
 
@@ -91,9 +92,9 @@ $ touch app.py  # Create a Python file
 $ python3 app.py   # Run that Python file
 ```
 
-### By REPL
+### By REPL(Read-Eval-Print-Loop)
 
-The second way that we can interact with Python code is with a tools like IPython or the Python shell. These are both REPLs.
+The second way that we can interact with Python code is with a tools like IPython or the Python shell. These are both REPLs. Have we used these before?
 
 1.  Install: `$ pip3 install ipython`
 2.  Run REPL: `$ ipython`
