@@ -5,7 +5,10 @@
 - Review the history and background of the Python programming language
 - Compare/contrast Python and JavaScript
   Learn how to run Python code by file and in a REPL
-<details><summary>- Review various parts of the Python Language, including:</summary>
+<details>
+  <summary>
+     Review various parts of the Python Language, including:
+  </summary>
 
   - Syntax
   - Variables
@@ -13,7 +16,7 @@
   - Collections
   - Conditionals
   - Functions
-</details>
+  </details>
 
 ## Framing (5 min / 0:05)
 
