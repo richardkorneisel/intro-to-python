@@ -35,10 +35,10 @@ Python is a high-level, general purpose programming language created by Guido va
 
 <details>
 <summary>Python has a couple attributes that make it unique:</summary>
-- Meaningful Whitespace -- indentation signifies code blocks
-- Duck typing -- the types of variables are inferred rather than explicitly declared
-- Community -- there are **so** many Python libraries
-- Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language
+- Meaningful Whitespace -- indentation signifies code blocks</br>
+- Duck typing -- the types of variables are inferred rather than explicitly declared</br>
+- Community -- there are **so** many Python libraries</br>
+- Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language</br>
 </details>
 
 ### The Zen of Python
