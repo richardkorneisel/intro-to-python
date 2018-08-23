@@ -135,15 +135,16 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 <details>
 <summary>Why do we have to read all this ourselves?</summary>
 
-- This is part of the gradula release that we have discussed and that you have expereince during your projects, this is the part where you become developers and you don't rely on others to teach you. Developers have to teach themselves all the time, right now you are doing that in an environment where you have support.
+- This is part of the gradual release that we have discussed and that you have expereince during your projects, this is the part where you become developers and you don't rely on others to teach you. Developers have to teach themselves all the time, right now you are doing that in an environment where you have support.
 
-- While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.</br></br>
+- While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.</br>
 
 - Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.</br>
 -  I will come by and check your understanding one-on-one and ask you questions</br></br>
 </details>
 
 ## In Class Checkpoints
+</br>
 
 ### Everything Is An Object!
 
