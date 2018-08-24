@@ -380,7 +380,7 @@ Complete the first set of exercises (Exercise I: Data Types) in [this repo](http
 ## In Class Checkpoints
 <details>
   <summary>Check Points</summary>
-  - What does <pre> ** </pre> represent in python ?</br>
+  - What does '**' represent in python ?</br>
   - What is the result of <pre>print("My age is: " + 21)</pre></br>
   - How do you convert a string to an integer and an interger to a string?</br>
 </details>
