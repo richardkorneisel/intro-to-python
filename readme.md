@@ -601,6 +601,7 @@ double()
       EX: - "Hello World!"
   - What does the 'format' method allow us to do to a string?
   - What is a logical operation or relational operation that is    different in python compared to javascript? 
+  - Any other differences between javascript and python that we noticed?
 </details>
 </br>
 </br>
