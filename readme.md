@@ -137,7 +137,9 @@ While your code will work if you close a line with `;`, common practice is not t
   - What makes python unique?</br>
   - What is one thing that we can take away from the python poem? (Scroll up)
 </details>
-
+</br>
+</br>
+</br>
 
 
 
