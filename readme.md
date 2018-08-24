@@ -21,7 +21,7 @@
 
 <details>
 <summary>In Class Checkpoints:</summary>
-- An basic statement in js vs python</br>
+- An basic if statement in js vs python</br>
 - A basic loop in js vs python</br>
 - Creating a variable in js vs python</br>
 - A function in js vs python</br>
@@ -148,7 +148,7 @@ While your code will work if you close a line with `;`, common practice is not t
 
 ## You Do: Data Types (15 minutes / 0:25)
 - Open a terminal and start the ipython REPL
-- Spend 15 minutes going through everything up until the **In Class Checkpoint** section below this one. Testing out the each command in the ipython REPL.
+- Spend 15 minutes going through everything up until the **In Class Checkpoint** section below this one. Testing out the each command in the ipython REPL. I will walk among you during this period checking your understanding of python.
 
 <details>
 <summary>Why do we have to read all this ourselves?</summary>
@@ -341,10 +341,14 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
+</br>
+</br>
 ## In Class Checkpoints
 <details>
   <summary>*</summary>
 </details>
+</br>
+</br>
 </br>
 
 ## We Do: Python Bouncer (10 min / 0:40)
@@ -587,10 +591,19 @@ double()
 # => 10
 ```
 
+</br>
+</br>
 ## In Class Checkpoints
 <details>
-  <summary>*</summary>
+  <summary>Python Basics</summary>
+  - What is the difference between 30 / 5 and 30 // 5
+  - How could you use a string 3 times in python ?
+      EX: - "Hello World!"
+  - What does the 'format' method allow us to do to a string?
+  - What is a logical operation or relational operation that is    different in python compared to javascript? 
 </details>
+</br>
+</br>
 </br>
 
 
