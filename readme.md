@@ -108,7 +108,7 @@ We'll use iPython for the first portion of this lesson.
 
 # Checkpoints
 <details>
-  <summary>*</summary>
+  <summary># *</summary>
   - Why are we learning python?
   - What makes python unique?
   - What is one thing that we can take away from the python poem?
@@ -577,6 +577,13 @@ def double(number=5):
 double()
 # => 10
 ```
+
+## In Class Checkpoints
+<details>
+  <summary>*</summary>
+</details>
+</br>
+
 
 ## You do: Exercise: Temperature Converter (25 minutes / 2:20)
 
