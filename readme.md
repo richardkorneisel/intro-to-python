@@ -110,7 +110,7 @@ We'll use iPython for the first portion of this lesson.
 <details>
   - Why are we learning python?</br>
   - What makes python unique?</br>
-  - What is one thing that we can take away from the python poem?
+  - What is one thing that we can take away from the python poem? (Scroll up)
 </details>
 
 
