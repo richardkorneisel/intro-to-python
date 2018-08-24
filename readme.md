@@ -130,7 +130,9 @@ Notice a few other things about the above block of code:
 While your code will work if you close a line with `;`, common practice is not to use them.
 
 
-
+</br>
+</br>
+</br>
 # Checkpoints
 <details>
   - Why are we learning python?</br>
