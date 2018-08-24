@@ -593,6 +593,7 @@ double()
 
 </br>
 </br>
+
 ## In Class Checkpoints
 <details>
   <summary>Python Basics</summary>
