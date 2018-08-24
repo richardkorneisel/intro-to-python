@@ -341,6 +341,26 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
+
+</br>
+</br>
+
+## In Class Checkpoints
+
+<details>
+  <summary>Python Basics</summary>
+  - What is the difference between 30 / 5 and 30 // 5
+  - How could you use a string 3 times in python ?
+      EX: - "Hello World!"
+  - What does the 'format' method allow us to do to a string?
+  - What is a logical operation or relational operation that is    different in python compared to javascript? 
+  - Any other differences between javascript and python that we noticed?
+</details>
+</br>
+</br>
+</br>
+
+
 </br>
 </br>
 ## In Class Checkpoints
@@ -590,25 +610,6 @@ def double(number=5):
 double()
 # => 10
 ```
-
-</br>
-</br>
-
-## In Class Checkpoints
-
-<details>
-  <summary>Python Basics</summary>
-  - What is the difference between 30 / 5 and 30 // 5
-  - How could you use a string 3 times in python ?
-      EX: - "Hello World!"
-  - What does the 'format' method allow us to do to a string?
-  - What is a logical operation or relational operation that is    different in python compared to javascript? 
-  - Any other differences between javascript and python that we noticed?
-</details>
-</br>
-</br>
-</br>
-
 
 ## You do: Exercise: Temperature Converter (25 minutes / 2:20)
 
