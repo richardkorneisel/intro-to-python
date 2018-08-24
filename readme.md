@@ -349,12 +349,12 @@ else:
 
 <details>
   <summary>Python Basics</summary>
-  - What is the difference between 30 / 5 and 30 // 5
-  - How could you use a string 3 times in python ?
-      EX: - "Hello World!"
-  - What does the 'format' method allow us to do to a string?
-  - What is a logical operation or relational operation that is    different in python compared to javascript? 
-  - Any other differences between javascript and python that we noticed?
+  - What is the difference between `30 / 5` and `30 // 5` ?</br>
+  - How could you use a string 3 times in python ?</br>
+      EX: - "Hello World!"</br>
+  - What does the 'format' method allow us to do to a string?</br>
+  - What is a logical operation or relational operation that is different in python compared to javascript? </br>
+  - Any other differences between javascript and python that we noticed?</br>
 </details>
 </br>
 </br>
