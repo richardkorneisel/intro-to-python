@@ -108,7 +108,7 @@ We'll use iPython for the first portion of this lesson.
 
 # Checkpoints
 <details>
-  <summary># *</summary>
+  <summary><pre># *</pre></summary>
   - Why are we learning python?
   - What makes python unique?
   - What is one thing that we can take away from the python poem?
