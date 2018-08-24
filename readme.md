@@ -363,7 +363,7 @@ else:
 
 ## We Do: Python Bouncer (10 min / 0:40)
 
-Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. Walk me through how to do the same, but now with Python!
+Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. You can make a python file for this in your sandbox. Walk me through how to do the same, but now with Python! 
 
 Here's the recap of the bouncer rules:
 
@@ -379,11 +379,14 @@ Complete the first set of exercises (Exercise I: Data Types) in [this repo](http
 
 ## In Class Checkpoints
 <details>
-  <summary>*</summary>
+  <summary>Check Points</summary>
+  - What does <pre> ** </pre> represent in python ?</br>
+  - What is the result of <pre>print("My age is: " + 21)</pre></br>
+  - How do you convert a string to an integer and an interger to a string?</br>
 </details>
 </br>
 
-## `print` and `input` (5 min / 1:15)
+## Print and Input (input & output) (5 min / 1:15)
 
 To print out to the console like `console.log()` does in JavaScript, we use the `print` function:
 
@@ -405,6 +408,7 @@ user_input
 - If you need to convert your value to a number, run the `int()` function on it!
 
 ## List (15 min / 1:30)
+
 
 An ordered collection of related values. Same syntax as Javascript arrays.
 
