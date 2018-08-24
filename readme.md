@@ -106,13 +106,6 @@ The second way that we can interact with Python code is with a tools like IPytho
 
 We'll use iPython for the first portion of this lesson.
 
-# Checkpoints
-<details>
-  - Why are we learning python?</br>
-  - What makes python unique?</br>
-  - What is one thing that we can take away from the python poem? (Scroll up)
-</details>
-
 
 ## Fundamental Data Types
 
@@ -135,6 +128,19 @@ Notice a few other things about the above block of code:
 ### No Semicolons
 
 While your code will work if you close a line with `;`, common practice is not to use them.
+
+
+
+# Checkpoints
+<details>
+  - Why are we learning python?</br>
+  - What makes python unique?</br>
+  - What is one thing that we can take away from the python poem? (Scroll up)
+</details>
+
+
+
+
 
 ## You Do: Data Types (15 minutes / 0:25)
 
