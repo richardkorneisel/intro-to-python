@@ -106,6 +106,15 @@ The second way that we can interact with Python code is with a tools like IPytho
 
 We'll use iPython for the first portion of this lesson.
 
+# Checkpoints
+<details>
+  <summary>*</summary>
+  - Why are we learning python?
+  - What makes python unique?
+  - What is one thing that we can take away from the python poem?
+</details>
+
+
 ## Fundamental Data Types
 
 ### Variables
@@ -142,9 +151,6 @@ Spend 15 minutes reading through everything up until the **Data Types Exercises*
 - Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.</br>
 -  I will come by and check your understanding one-on-one and ask you questions</br></br>
 </details>
-</br>
-
-## In Class Checkpoints
 </br>
 
 ### Everything Is An Object!
@@ -326,6 +332,12 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
+## In Class Checkpoints
+<details>
+  <summary>*</summary>
+</details>
+</br>
+
 ## We Do: Python Bouncer (10 min / 0:40)
 
 Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. Walk me through how to do the same, but now with Python!
@@ -341,6 +353,12 @@ Here's the recap of the bouncer rules:
 Complete the first set of exercises (Exercise I: Data Types) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
 ## Break (10 min / 1:10)
+
+## In Class Checkpoints
+<details>
+  <summary>*</summary>
+</details>
+</br>
 
 ## `print` and `input` (5 min / 1:15)
 
