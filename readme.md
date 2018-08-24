@@ -361,16 +361,6 @@ else:
 </br>
 
 
-</br>
-</br>
-## In Class Checkpoints
-<details>
-  <summary>*</summary>
-</details>
-</br>
-</br>
-</br>
-
 ## We Do: Python Bouncer (10 min / 0:40)
 
 Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. Walk me through how to do the same, but now with Python!
