@@ -595,6 +595,7 @@ double()
 </br>
 
 ## In Class Checkpoints
+
 <details>
   <summary>Python Basics</summary>
   - What is the difference between 30 / 5 and 30 // 5
