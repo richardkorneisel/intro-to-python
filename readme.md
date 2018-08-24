@@ -147,8 +147,8 @@ While your code will work if you close a line with `;`, common practice is not t
 
 
 ## You Do: Data Types (15 minutes / 0:25)
-
-Spend 15 minutes reading through everything up until the **Data Types Exercises** section below this one.
+- Open a terminal and start the ipython REPL
+- Spend 15 minutes going through everything up until the **In Class Checkpoint** section below this one. Testing out the each command in the ipython REPL.
 
 <details>
 <summary>Why do we have to read all this ourselves?</summary>
