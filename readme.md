@@ -132,7 +132,7 @@ While your code will work if you close a line with `;`, common practice is not t
 
 </br>
 </br>
-</br>
+
 # Checkpoints
 <details>
   - Why are we learning python?</br>
