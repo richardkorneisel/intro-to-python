@@ -653,7 +653,7 @@ Break out in to groups of 3, then, with your group, compare and contrast again w
 
 <details>
 <summary>Vennis!!</summary>
-![](https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif)
+<pre>![](https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif)</pre>
 </details>
 
 ### Leading Questions
