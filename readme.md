@@ -663,17 +663,17 @@ Break out in to groups of 3, then, with your group, compare and contrast again w
 
 <details>
 <summary>Functions Checkpoint</summary>
-- When do we use a return? (do we use it for if statements?, loops? or something else)
-- What is the difference between an explict and implict return?
-- What type of return does javascript and python use?
-- Wooo default values, when could those be useful?
+- When do we use a return? (do we use it for if statements?, loops? or something else)</br>
+- What is the difference between an explict and implict return?</br>
+- What type of return does javascript and python use?</br>
+- Wooo default values, when could those be useful?</br>
 </details>
 
 </br>
 <details>
 <summary>Dictionary Checkpoint</summary>
-- What would we have called a python dictionary in javascript?
-- How would you describe a dictionary?
+- What would we have called a python dictionary in javascript?</br>
+- How would you describe a dictionary?</br>
 </details>
 </br>
 
