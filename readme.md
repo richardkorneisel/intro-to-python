@@ -649,6 +649,8 @@ double()
 
 Break out in to groups of 3, then, with your group, compare and contrast again what you know about JavaScript with what you now know about Python on the whiteboard. You can do this with a table, a mind map or however you think is best.
 
+[alt-text](https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif)
+
 <details>
 <summary>Vennis!!</summary>
 [](https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif)
