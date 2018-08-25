@@ -658,9 +658,9 @@ Break out in to groups of 3, then, with your group, compare and contrast again w
 ### Leading Questions (As Time Permits)
 <details>
 <summary>Checkpoint</summary>
-- What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?
-- Describe the difference between what is truthy/falsey in Python vs JavaScript?***THERE IS NO REVIEW FOR JS AND THIS IS NOT TAUGHT IN PYTHON, DATA TYPES OF PYTHON ARE MISSING***
-- How would you add a key / value pair to an existing dictionary? How is this different from adding a key / value pair to an existing object in JavaScript?
+- What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?</br>
+- Describe the difference between what is truthy/falsey in Python vs JavaScript?***THERE IS NO REVIEW FOR JS AND THIS IS NOT TAUGHT IN PYTHON, DATA TYPES OF PYTHON ARE MISSING***</br>
+- How would you add a key / value pair to an existing dictionary? How is this different from adding a key / value pair to an existing object in JavaScript?</br>
 </details>
 
 </br>
