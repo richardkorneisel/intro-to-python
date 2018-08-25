@@ -500,6 +500,16 @@ numbers
 # => [3, 1, 2, 4]
 ```
 
+</br>
+<details>
+<summary>Checkpoint</summary>
+- Why don't we need to memorize each of the list methods
+- What do we call the array data type in python?
+</details>
+</br>
+
+
+
 ## Dictionary (10 min / 1:40)
 
 A Python dictionary is an unordered collection organized by key-value pairs. A dictionary is very similar to a Javascript object.
@@ -547,6 +557,13 @@ Returns a `dict_keys` structure with all the keys in the dictionary. Can easily 
 wdi_class.keys()
 # => dict_keys(['teacher', 'students', 'classroom', 'in_session', 'schedule'])
 ```
+
+</br>
+<details>
+<summary>Checkpoint</summary>
+- What do we call the object data type in python?
+</details>
+</br>
 
 ## Ranges
 
