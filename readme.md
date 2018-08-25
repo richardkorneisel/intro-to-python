@@ -405,12 +405,10 @@ user_input
 # => "My input"
 ```
 
-- If you need to convert your value to a number, run the `int()` function on it!
-
-## List (15 min / 1:30)
+## Lists & Collections(15 min / 1:30)
 
 
-An ordered collection of related values. Same syntax as Javascript arrays.
+An ordered collection of related values. Same syntax as Javascript arrays. The data type is called a <b>list</b>
 
 - Square brackets
 - Values separated by commas
