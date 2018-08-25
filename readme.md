@@ -562,7 +562,8 @@ wdi_class.keys()
 </br>
 <details>
 <summary>Checkpoint</summary>
-- What do we call the object data type in python?
+- What would we have called a python dictionary in javascript?
+- How would you describe a dictionary?
 </details>
 </br>
 
@@ -578,6 +579,15 @@ Use ranges to quickly generate lists of numbers.
 list(range(1, 6))
 # => [1, 2, 3, 4, 5]
 ```
+
+</br>
+<details>
+<summary>Checkpoint</summary>
+- When would we want to use a range?
+- How would you describe a dictionary?
+</details>
+</br>
+
 
 ## You Do: Data Collections Exercises (20 min / 2:00)
 
@@ -621,6 +631,14 @@ double()
 # => 10
 ```
 
+<details>
+<summary>Checkpoint</summary>
+- When do we use a return? (do we use it for if statements?, loops? or something else)
+- What is the difference between an explict and implict return?
+- What type of return does javascript and python use?
+- Wooo default values, when could those be useful?
+</details>
+
 ## You do: Exercise: Temperature Converter (25 minutes / 2:20)
 
 > 15 minutes exercise. 10 minutes review.
@@ -630,6 +648,11 @@ double()
 ## Compare and Contrast, Part 2 (10 min / 2:30)
 
 Break out in to groups of 3, then, with your group, compare and contrast again what you know about JavaScript with what you now know about Python on the whiteboard. You can do this with a table, a mind map or however you think is best.
+
+<details>
+<summary>Vennis!!</summary>
+[](https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif)
+</details>
 
 ### Leading Questions
 
