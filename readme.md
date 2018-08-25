@@ -686,6 +686,7 @@ Break out in to groups of 3, then, with your group, compare and contrast again w
 </details>
 
 </br>
+
 ## Break In To Groups of 4 (WDI 24 -> That is 3 Groups) And Go Over The Following
 <details>
 <summary>In Class Checkpoints:</summary>
