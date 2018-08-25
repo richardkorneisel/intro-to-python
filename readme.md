@@ -19,16 +19,17 @@
   </details>
 
 
-<details>
-<summary>In Class Checkpoints:</summary>
-- An basic if statement in js vs python</br>
-- A basic loop in js vs python</br>
-- Creating a variable in js vs python</br>
-- A function in js vs python</br>
-</details>
-
-
 ## Framing (5 min / 0:05)
+
+Some of you might be thinking "Hey we just learned javascript, what gives?".
+
+I would remind you that the instructors that have developed and are teaching this program have been where you are before, we have been through this course, we have gone through interviewing, code challenges and white boarding interviews and we have gone through this job process. We are teaching you more than one langauge because it is important for you to not feel like you can only work in one language, to develop your confidence and to expose you to as much as possible before you get out in to the world. There is no guarantee that your first job offer will be javascript, so we are trying to get you all as prepared as possible.
+
+Think of this as a fresh start if you struggled with javascript. An opportunity to start over, if you did well with javascript then you will see all the similarities between programming languages and you can see how the development of knowledge, especially in the software development field, is an accumulative process. In other words you need to learn the basics first, then those fundamentals can be applied elsewhere and your knowledge will continue to grown on top of the fundamentals that you learned in javascript.
+
+- Describe the difference between what is truthy/falsey in Python vs JavaScript?***THERE IS NO REVIEW FOR JS AND THIS IS NOT TAUGHT IN PYTHON, DATA TYPES OF PYTHON ARE MISSING***
+
+***YOU HAVE NOT GONE THROUGH ALL THE NESTED EXERCISES IN THE REPOS YET***
 
 ### What is Python?
 
@@ -647,10 +648,6 @@ double()
 
 ## Compare and Contrast, Part 2 (10 min / 2:30)
 
-<!-- <div align="center">
-![](https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif)
-</div> -->
-
   <img src="https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif" margin-left="24%"/>
 
 
@@ -658,8 +655,40 @@ Break out in to groups of 3, then, with your group, compare and contrast again w
 
 
 
-### Leading Questions
+### Leading Questions (As Time Permits)
 
 - What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?
-- Describe the difference between what is truthy/falsey in Python vs JavaScript?
+- Describe the difference between what is truthy/falsey in Python vs JavaScript?***THERE IS NO REVIEW FOR JS AND THIS IS NOT TAUGHT IN PYTHON, DATA TYPES OF PYTHON ARE MISSING***
 - How would you add a key / value pair to an existing dictionary? How is this different from adding a key / value pair to an existing object in JavaScript?
+
+<details>
+<summary>Functions Checkpoint</summary>
+- When do we use a return? (do we use it for if statements?, loops? or something else)
+- What is the difference between an explict and implict return?
+- What type of return does javascript and python use?
+- Wooo default values, when could those be useful?
+</details>
+
+</br>
+<details>
+<summary>Dictionary Checkpoint</summary>
+- What would we have called a python dictionary in javascript?
+- How would you describe a dictionary?
+</details>
+</br>
+
+</br>
+<details>
+<summary>Range Checkpoint</summary>
+- When would we want to use a range?
+</details>
+</br>
+
+## Break In To Groups of 4 (WDI 24 -> That is 3 Groups) And Go Over The Following
+<details>
+<summary>In Class Checkpoints:</summary>
+- Group 1: An basic if statement in js vs python</br>
+- Group 2: A basic loop in js vs python</br>
+- Group 3: Creating a variable in js vs python</br>
+- Group 4: A function in js vs python</br>
+</details>
