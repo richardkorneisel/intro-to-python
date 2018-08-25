@@ -503,8 +503,9 @@ numbers
 </br>
 <details>
 <summary>Checkpoint</summary>
-- Why don't we need to memorize each of the list methods
-- What do we call the array data type in python?
+- Why don't we need to memorize each of the list methods?</br>
+- What do we call the array data type in python?</br>
+- What are common list methods that we may be likely to use?</br>
 </details>
 </br>
 
