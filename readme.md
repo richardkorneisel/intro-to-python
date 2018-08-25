@@ -656,6 +656,7 @@ Break out in to groups of 3, then, with your group, compare and contrast again w
 
 
 ### Leading Questions (As Time Permits)
+
 <details>
 <summary>Checkpoint</summary>
 - What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?</br>
