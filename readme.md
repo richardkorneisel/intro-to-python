@@ -5,26 +5,43 @@
 - Review the history and background of the Python programming language
 - Compare/contrast Python and JavaScript
   Learn how to run Python code by file and in a REPL
-- Review various parts of the Python Language, including:
+<details>
+  <summary>
+     Review various parts of the Python Language, including:
+  </summary>
+
   - Syntax
   - Variables
   - Fundamental Data Types
   - Collections
   - Conditionals
   - Functions
+  </details>
+
 
 ## Framing (5 min / 0:05)
 
+Some of you might be thinking "Hey we just learned javascript, what gives?".
+
+I would remind you that the instructors that have developed and are teaching this program have been where you are before, we have been through this course, we have gone through interviewing, code challenges and white boarding interviews and we have gone through this job process. We are teaching you more than one langauge because it is important for you to not feel like you can only work in one language, to develop your confidence and to expose you to as much as possible before you get out in to the world. There is no guarantee that your first job offer will be javascript, so we are trying to get you all as prepared as possible.
+
+Think of this as a fresh start if you struggled with javascript. An opportunity to start over, if you did well with javascript then you will see all the similarities between programming languages and you can see how the development of knowledge, especially in the software development field, is an accumulative process. In other words you need to learn the basics first, then those fundamentals can be applied elsewhere and your knowledge will continue to grown on top of the fundamentals that you learned in javascript.
+
+- Describe the difference between what is truthy/falsey in Python vs JavaScript?***THERE IS NO REVIEW FOR JS AND THIS IS NOT TAUGHT IN PYTHON, DATA TYPES OF PYTHON ARE MISSING***
+
+***YOU HAVE NOT GONE THROUGH ALL THE NESTED EXERCISES IN THE REPOS YET***
+
 ### What is Python?
 
-Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the fifth most used programming language behind Java, C, C++, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
+Python is a high-level, general purpose programming language created by Guido van Rossum in 1991. It is the [fourth](https://stackify.com/popular-programming-languages-2018/?utm_referrer=https%3A%2F%2Fwww.google.com%2F) most used programming language behind Java, C, C++, and C#. Python can be used for data science, devops, or general purpose programming. In this class, we will be using it as a server-side "back-end" programming language.
 
-Python has a couple attributes that make it unique:
-
-- Meaningful Whitespace -- indentation signifies code blocks
-- Duck typing -- the types of variables are inferred rather than explicitly declared
-- Community -- there are **so** many Python libraries
-- Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language
+<details>
+<summary>Python has a couple attributes that make it unique:</summary>
+- Meaningful Whitespace -- indentation signifies code blocks</br>
+- Duck typing -- the types of variables are inferred rather than explicitly declared</br>
+- Community -- there are **so** many Python libraries</br>
+- Easter Eggs -- Python is named after Monty Python, and there are a bunch of easter eggs built into the core language</br>
+</details>
 
 ### The Zen of Python
 
@@ -77,9 +94,9 @@ $ touch app.py  # Create a Python file
 $ python3 app.py   # Run that Python file
 ```
 
-### By REPL
+### By REPL(Read-Eval-Print-Loop)
 
-The second way that we can interact with Python code is with a tools like IPython or the Python shell. These are both REPLs.
+The second way that we can interact with Python code is with a tools like IPython or the Python shell. These are both REPLs. Have we used these before?
 
 1.  Install: `$ pip3 install ipython`
 2.  Run REPL: `$ ipython`
@@ -89,6 +106,7 @@ The second way that we can interact with Python code is with a tools like IPytho
 > IPython is an alternative Python shell that adds a bunch of features like tab completion, better syntax highlighting, and the ability to inline embed graphics.
 
 We'll use iPython for the first portion of this lesson.
+
 
 ## Fundamental Data Types
 
@@ -112,15 +130,38 @@ Notice a few other things about the above block of code:
 
 While your code will work if you close a line with `;`, common practice is not to use them.
 
+
+</br>
+</br>
+
+# Checkpoints
+<details>
+  - Why are we learning python?</br>
+  - What makes python unique?</br>
+  - What is one thing that we can take away from the python poem? (Scroll up)
+</details>
+</br>
+</br>
+</br>
+
+
+
+
 ## You Do: Data Types (15 minutes / 0:25)
+- Open a terminal and start the ipython REPL
+- Spend 15 minutes going through everything up until the **In Class Checkpoint** section below this one. Testing out the each command in the ipython REPL. I will walk among you during this period checking your understanding of python.
 
-Spend 15 minutes reading through everything up until the **Data Types Exercises** section below this one.
+<details>
+<summary>Why do we have to read all this ourselves?</summary>
 
-> **Why do we have to read all this ourselves?**
->
-> While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.
->
-> Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.
+- This is part of the gradual release that we have discussed and that you have expereince during your projects, this is the part where you become developers and you don't rely on others to teach you. Developers have to teach themselves all the time, right now you are doing that in an environment where you have support.
+
+- While we could re-teach you what numbers, strings, conditionals, etc. are like in Python, you know enough about programming languages from your experience with JavaScript to pick up on this information yourself pretty quickly.</br>
+
+- Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.</br>
+-  I will come by and check your understanding one-on-one and ask you questions</br></br>
+</details>
+</br>
 
 ### Everything Is An Object!
 
@@ -301,9 +342,29 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
+
+</br>
+</br>
+
+## In Class Checkpoints
+
+<details>
+  <summary>Python Basics</summary>
+  - What is the difference between `30 / 5` and `30 // 5` ?</br>
+  - How could you use a string 3 times in python ?</br>
+      EX: <pre>"Hello World!"</pre></br>
+  - What does the 'format' method allow us to do to a string?</br>
+  - What is a logical operation or relational operation that is different in python compared to javascript? </br>
+  - Any other differences between javascript and python that we noticed?</br>
+</details>
+</br>
+</br>
+</br>
+
+
 ## We Do: Python Bouncer (10 min / 0:40)
 
-Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. Walk me through how to do the same, but now with Python!
+Back during our first few lessons on JavaScript, you used conditionals and variables to create a Bouncer. You can make a python file for this in your sandbox. Walk me through how to do the same, but now with Python! 
 
 Here's the recap of the bouncer rules:
 
@@ -317,7 +378,16 @@ Complete the first set of exercises (Exercise I: Data Types) in [this repo](http
 
 ## Break (10 min / 1:10)
 
-## `print` and `input` (5 min / 1:15)
+## In Class Checkpoints
+<details>
+  <summary>Check Points</summary>
+  - What does '**' represent in python ?</br>
+  - What is the result of <pre>print("My age is: " + 21)</pre></br>
+  - How do you convert a string to an integer and an interger to a string?</br>
+</details>
+</br>
+
+## Print and Input (input & output) (5 min / 1:15)
 
 To print out to the console like `console.log()` does in JavaScript, we use the `print` function:
 
@@ -336,11 +406,10 @@ user_input
 # => "My input"
 ```
 
-- If you need to convert your value to a number, run the `int()` function on it!
+## Lists & Collections(15 min / 1:30)
 
-## List (15 min / 1:30)
 
-An ordered collection of related values. Same syntax as Javascript arrays.
+An ordered collection of related values. Same syntax as Javascript arrays. The data type is called a <b>list</b>
 
 - Square brackets
 - Values separated by commas
@@ -432,6 +501,17 @@ numbers
 # => [3, 1, 2, 4]
 ```
 
+</br>
+<details>
+<summary>Checkpoint</summary>
+- Why don't we need to memorize each of the list methods?</br>
+- What do we call the array data type in python?</br>
+- What are common list methods that we may be likely to use?</br>
+</details>
+</br>
+
+
+
 ## Dictionary (10 min / 1:40)
 
 A Python dictionary is an unordered collection organized by key-value pairs. A dictionary is very similar to a Javascript object.
@@ -480,6 +560,14 @@ wdi_class.keys()
 # => dict_keys(['teacher', 'students', 'classroom', 'in_session', 'schedule'])
 ```
 
+</br>
+<details>
+<summary>Checkpoint</summary>
+- What would we have called a python dictionary in javascript?</br>
+- How would you describe a dictionary?</br>
+</details>
+</br>
+
 ## Ranges
 
 Use ranges to quickly generate lists of numbers.
@@ -492,6 +580,15 @@ Use ranges to quickly generate lists of numbers.
 list(range(1, 6))
 # => [1, 2, 3, 4, 5]
 ```
+
+</br>
+<details>
+<summary>Checkpoint</summary>
+- When would we want to use a range?</br>
+- How would you describe a dictionary?</br>
+</details>
+</br>
+
 
 ## You Do: Data Collections Exercises (20 min / 2:00)
 
@@ -535,6 +632,14 @@ double()
 # => 10
 ```
 
+<details>
+<summary>Checkpoint</summary>
+- When do we use a return? (do we use it for if statements?, loops? or something else)</br>
+- What is the difference between an explict and implict return?</br>
+- What type of return does javascript and python use?</br>
+- Wooo default values, when could those be useful?</br>
+</details>
+
 ## You do: Exercise: Temperature Converter (25 minutes / 2:20)
 
 > 15 minutes exercise. 10 minutes review.
@@ -543,10 +648,52 @@ double()
 
 ## Compare and Contrast, Part 2 (10 min / 2:30)
 
+  <img src="https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif" margin-left="24%"/>
+
+
 Break out in to groups of 3, then, with your group, compare and contrast again what you know about JavaScript with what you now know about Python on the whiteboard. You can do this with a table, a mind map or however you think is best.
 
-### Leading Questions
 
-- What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?
-- Describe the difference between what is truthy/falsey in Python vs JavaScript?
-- How would you add a key / value pair to an existing dictionary? How is this different from adding a key / value pair to an existing object in JavaScript?
+
+### Leading Questions (As Time Permits)
+
+<details>
+<summary>Checkpoint</summary>
+- What are the main data types in Python? What are they in JavaScript? How do they work similarly and differently?</br>
+- Describe the difference between what is truthy/falsey in Python vs JavaScript?</br>
+***THERE IS NO REVIEW FOR JS AND THIS IS NOT TAUGHT IN PYTHON, DATA TYPES OF PYTHON ARE MISSING***</br>
+- How would you add a key / value pair to an existing dictionary? How is this different from adding a key / value pair to an existing object in JavaScript?</br>
+</details>
+
+</br>
+<details>
+<summary>Functions Checkpoint</summary>
+- When do we use a return? (do we use it for if statements?, loops? or something else)</br>
+- What is the difference between an explict and implict return?</br>
+- What type of return does javascript and python use?</br>
+- Wooo default values, when could those be useful?</br>
+</details>
+
+</br>
+<details>
+<summary>Dictionary Checkpoint</summary>
+- What would we have called a python dictionary in javascript?</br>
+- How would you describe a dictionary?</br>
+</details>
+
+</br>
+<details>
+<summary>Range Checkpoint</summary>
+- When would we want to use a range?
+</details>
+
+</br>
+
+## Break In To Groups of 4 (WDI 24 -> That is 3 Groups) And Go Over The Following
+<details>
+<summary>In Class Checkpoints:</summary>
+- Group 1: An basic if statement in js vs python</br>
+- Group 2: A basic loop in js vs python</br>
+- Group 3: Creating a variable in js vs python</br>
+- Group 4: A function in js vs python</br>
+</details>
