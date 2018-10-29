@@ -615,6 +615,35 @@ what you know about JavaScript with what you now know about Python on the
 whiteboard. You can do this with a table, a mind map or however you think is
 best.
 
+## Conclusion
+
+One of the things we said back when we were learning JavaScript is that it's
+challenging to learn programming and a programming language at the same time
+(but also necessary, there's no way around that). Now that you know programming
+and a programming language (JavaScript), you only need to learn the new
+programming language!
+
+## Additional Resources
+
+* [Python Docs](https://docs.python.org/3/)
+* [Python Starter](https://git.generalassemb.ly/dc-wdi-python-django/python-starter)
+* [Python Beginner Tutorial (Docs)](https://docs.python.org/3/tutorial/index.html)
+
+## Bonus
+
+### [Pyenv](https://github.com/pyenv/pyenv)
+
+Something we'll have to worry about in Python that we didn't have to
+worry about in Node is managing multiple versions of the programming language
+on your laptop. That's why we used the `pip3` and `python3` commands
+throughout this lesson, we want to use the latest version of Python.
+
+This can become tedious and annoying, so developers have build tools to manage
+which version of Python is "active" on their computer at a given time, one of
+which is [Pyenv](https://github.com/pyenv/pyenv). It's easy to set up and will
+let you manage the multiple versions of Python you already have installed on
+your laptop.
+
 ## [License](LICENSE)
 
 1. All content is licensed under a CC­BY­NC­SA 4.0 license.
