@@ -60,7 +60,7 @@ Before we begin, let's ensure Python is installed on your computer:
 $ which python3
 ```
 
-If it is *not*  installed, go ahead and install it:
+If it is *not* installed, go ahead and install it:
 
 ```sh
 $ brew install python3
@@ -89,7 +89,7 @@ The second way that we can interact with Python code is with a tools like
 IPython or the Python shell. These are both REPLs. Have we used these before?
 
 ```sh
-pip3  install ipython # install IPython
+pip3 install ipython # install IPython
 ipython               # start IPython REPL
 exit                  # quit IPython
 python                # start Python REPL
