@@ -6,13 +6,13 @@ Let's start learning our second programming language!
 
 ## Prerequisites
 
-* Fundamentals of programming in one other programming language
+* Fundamentals of programming in JavaScript
 
 ## Objectives
 
 By the end of this, developers should be able to:
 
-* Describe the history, background, and use-cases for Python
+* Describe the history, background, and use-cases of Python
 * Compare and contrast Python with a previous language
 * Write basic programs in Python
 
@@ -20,14 +20,15 @@ By the end of this, developers should be able to:
 
 Python is a high-level, general purpose programming language created by Guido
 van Rossum in 1991. It is the
-[fourth](https://stackify.com/popular-programming-languages-2018/)
-most used programming language behind Java, C, C++, and C#. Python can be used
-for data science, devops, or general purpose programming. In this class, we will
-be using it as a server-side "back-end" programming language.
+[fourth](https://stackify.com/popular-programming-languages-2018/) most used
+programming language behind Java, C, C++, and C#. Python can be used for data
+science, devops, or general purpose programming. In this class, we will be using
+it as a server-side, "back-end" programming language.
 
 ## The Zen of Python
 
-Tim Peters, one of the original Python users wrote the following poem on the philosophy behind the Python language.
+Tim Peters, one of the original Python users wrote the following poem on the
+philosophy behind the Python language:
 
 ```
 Beautiful is better than ugly.
@@ -67,33 +68,39 @@ $ brew install python3
 
 ### Interacting with Python
 
-There are a few ways that we can interact with Python
+There are a few ways that we can interact with Python:
 
 #### By File
 
 The first way that we can interact with Python is by running a Python file.
 Python files have the extension `.py` and can be run through the command line:
 
-```
-$ touch app.py  # Create a Python file
-$ python3 app.py   # Run that Python file
+```sh
+cd sandbox/
+mkdir py-test
+cd py-test
+touch app.py     # Create a Python file
+python3 app.py   # Run that Python file
 ```
 
-#### By REPL (Read-Eval-Print-Loop)
+#### By REPL (Read-Evaluate-Print-Loop)
 
 The second way that we can interact with Python code is with a tools like
 IPython or the Python shell. These are both REPLs. Have we used these before?
 
-1.  Install: `$ pip3 install ipython`
-2.  Run REPL: `$ ipython`
-3.  Quit from REPL: `exit`
-4.  Alternative: `$ python`
+```sh
+pip3  install ipython # install IPython
+ipython               # start IPython REPL
+exit                  # quit IPython
+python                # start Python REPL
+exit()                # quit Python REPL
+```
 
 > IPython is an alternative Python shell that adds a bunch of features like tab
 > completion, better syntax highlighting, and the ability to inline embed
 > graphics.
 
-We'll use iPython for the first portion of this lesson.
+We'll use IPython for the first portion of this lesson.
 
 ## Fundamental Data Types
 
@@ -115,12 +122,15 @@ Notice a few other things about the above block of code:
 
 ### No Semicolons
 
-While your code will work if you close a line with `;`, common practice is not to use them.
+While your code will work if you close a line with `;`, common practice is not
+to use them.
 
 ## You Do: Data Types
 
-* Open a terminal and start the IPython REPL
-* Spend 15 minutes going through everything up until the **In Class Checkpoint** section below this one. Testing out the each command in the IPython REPL.
+Start the IPython REPL in your terminal and start working through the prompts
+below.
+
+> 15 minutes
 
 <details>
 <summary>Why do we have to read all this ourselves?</summary>
@@ -133,11 +143,21 @@ you have support.
 
 While we could re-teach you what numbers, strings, conditionals, etc. are like
 in Python, you know enough about programming languages from your experience with
-JavaScript to pick up on this information yourself pretty quickly.
+JavaScript to pick up on this information pretty quickly on your own. Honestly,
+if we taught it to you, you'd get bored really quickly.
 
-Because of this, the peculiarities of Python will be apparent. These are the things you need to be aware of in the next few classes.
+Because of this, the peculiarities of Python will be apparent. These are the
+things you need to be aware of in the next few classes.
 
 I will come by and check your understanding one-on-one and ask you questions
+
+</details>
+
+<details>
+<summary>Do I have to do the exercises? Can't I just read the code?</summary>
+
+Just reading the code wont lead to learning it, so type everything out into
+the IPython REPL!
 
 </details>
 
@@ -186,7 +206,7 @@ Python uses similar arithmetic operators to JavaScript
 
 ### Strings
 
-Words, just like in JavaScript.
+Text, just like in JavaScript.
 
 * Surrounded by single or double-quotes
 * Python uses similar escape characters
@@ -267,7 +287,8 @@ occupation = "consultant"
 # => "Lauren is a consultant. Frank is a consultant as well."
 ```
 
-F strings are also a brand new way of doing string interpolation in Python -- you won't see them in many places, but they are super helpful.
+F strings are also a brand new way of doing string interpolation in Python - you
+won't see them in many places, but they are super helpful.
 
 ```py
 class_number = 22
@@ -283,7 +304,8 @@ They are `True` and `False` (note the capitals!)
 * We'll be using them in conditionals and comparisons just like in JavaScript
 
 Comparison operators in Python are nearly identical to JavaScript. However, the
-check for equality is always for both value and data type.
+check for equality is always for both value and data type (i.e. strict
+comparison).
 
 * `<`
 * `>`
@@ -332,10 +354,13 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
+> Write the above code in a `roller_coaster.py` file and run it from the
+> command line.
+
 ## We Do: Python Bouncer
 
 Back during our first few lessons on JavaScript, you used conditionals and
-variables to create a Bouncer. You can make a python file for this in your
+variables to create a Bouncer. You can make a Python file for this in your
 sandbox. Walk me through how to do the same, but now with Python!
 
 Here's the recap of the bouncer rules:
@@ -378,7 +403,7 @@ user_input
 ## Lists & Collections(15 min / 1:30)
 
 An ordered collection of related values. Same syntax as JavaScript arrays. The
-data type is called a <b>list</b>
+data type is called a **list**.
 
 * Square brackets
 * Values separated by commas
@@ -403,8 +428,8 @@ animals
 
 ### List Methods
 
-Python is very nice. It provides us with an extensive library of list methods we
-can use to traverse and manipulate arrays.
+Python provides us with an extensive library of list methods we can use to
+traverse and manipulate arrays.
 
 * The Python [documentation](https://docs.python.org/3/tutorial/datastructures.html) for `List` is a great resource for learning more about these methods
 * Can't go over them all, but chances are if you could do it in JavaScript then you can do it in Python.
@@ -415,7 +440,7 @@ can use to traverse and manipulate arrays.
 >
 > **tl;dr:** The more you Google them, the better you'll remember them.
 
-#### Append/Extend/Pop
+#### `.append()`, `.extend()`, and `.pop()`
 
 * Append inserts an item into the end of the list.
 * Extend adds two arrays together.
@@ -444,7 +469,7 @@ numbers.pop(0)
 # => [2, 3, 4, 5, 6, [1, 2, 3], 7, 8]
 ```
 
-#### Sorted
+#### `sorted()`
 
 Organizes list values from lowest to highest. Numbers and strings.
 
@@ -456,7 +481,7 @@ sorted(numbers)
 # => [1, 2, 3, 4, 5]
 ```
 
-#### Delete
+#### `.remove()`
 
 * Removes an argument from an array
 * If there are multiple instances of that argument, it will delete just the first.
@@ -509,7 +534,8 @@ Like lists, Python also provides us with a library of dictionary methods.
 
 * [Again, the Python documentation is a great resource](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
 
-> As mentioned with lists, do not worry about memorizing these methods. Just know how to look them up should the need arise.
+> As mentioned with lists, do not worry about memorizing these methods. Just
+> know how to look them up should the need arise.
 
 #### Keys
 
@@ -537,13 +563,14 @@ list(range(1, 6))
 
 > 15 minutes exercise. 5 minutes review.
 
-Complete the second set of exercises (Exercise II: Data Collections) in [this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
+Complete the second set of exercises (Exercise II: Data Collections) in [this
+repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
 ## Functions
 
 In Python, functions are defined like this:
 
-```rb
+```py
 def double(number):
     return number * 2
 ```
@@ -561,7 +588,9 @@ double(3)
 
 You may have noticed that we use the same `return` notation as JavaScript.
 
-Python functions can also establish default argument values. In the below example, if we do not provide our `double` function with an argument, it will default to 5
+Python functions can also establish default argument values. In the below
+example, if we do not provide our `double` function with an argument, it will
+default to 5
 
 ```py
 def double(number=5):
