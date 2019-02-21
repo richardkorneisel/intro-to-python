@@ -82,6 +82,7 @@ cd py-test
 touch app.py     # Create a Python file
 python3 app.py   # Run that Python file
 ```
+> NOTE: Running an empty Python file will not result in anything, so don't worry if nothing happens when you run `python3 app.py` above.
 
 #### By REPL (Read-Evaluate-Print-Loop)
 
