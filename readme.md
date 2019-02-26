@@ -339,6 +339,7 @@ Pretty similar to JavaScript, with some differences:
 
 * No parentheses or curly brackets required
 * Begin blocks using `if`, `elif` and `else`
+* Use colons after each condition
 * Indentation matters! 4 spaces is the standard indent.
 
 Here's an example where we check for height at a roller coaster:
