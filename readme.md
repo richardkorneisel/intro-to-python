@@ -582,6 +582,7 @@ def double(number):
 * `def` - the Python equivalent of `function`
 * `double` - the function name in the above example
 * `number` - the parameter name in the above example
+* Use a `:` instead of curly brackets `{}`
 
 We invoke it like this:
 
