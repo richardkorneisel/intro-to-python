@@ -611,7 +611,7 @@ double()
 
 [Temperature Converter (Python)](https://git.generalassemb.ly/ga-dc-wdi-python/temperature-converter-python)
 
-## Compare and Contrast, Part 2
+## Compare and Contrast
 
 <img src="https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif" margin-left="24%"/>
 
