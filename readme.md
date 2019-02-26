@@ -82,6 +82,7 @@ cd py-test
 touch app.py     # Create a Python file
 python3 app.py   # Run that Python file
 ```
+> NOTE: Running an empty Python file will not result in anything, so don't worry if nothing happens when you run `python3 app.py` above.
 
 #### By REPL (Read-Evaluate-Print-Loop)
 
@@ -102,7 +103,7 @@ exit()                # quit Python REPL
 
 We'll use IPython for the first portion of this lesson.
 
-## Fundamental Data Types
+## Fundamental Characteristics of Python
 
 ### Variables
 
@@ -187,7 +188,7 @@ Python uses similar arithmetic operators to JavaScript
 # => 10
 
 30 / 5 # Division
-# => 6.2
+# => 6.0
 
 31 // 5 # Note: integer division
 # => 6
@@ -338,9 +339,12 @@ Pretty similar to JavaScript, with some differences:
 
 * No parentheses or curly brackets required
 * Begin blocks using `if`, `elif` and `else`
+* Use colons after each condition
 * Indentation matters! 4 spaces is the standard indent.
 
 Here's an example where we check for height at a roller coaster:
+> Write the above code in a `roller_coaster.py` file and run it from the
+> command line.
 
 ```py
 print("Welcome to the Iron Rattler! How tall are you (in feet)?")
@@ -353,9 +357,6 @@ elif height < 7:
 else:
     print("If you value your head, you should not get on this ride.")
 ```
-
-> Write the above code in a `roller_coaster.py` file and run it from the
-> command line.
 
 ## We Do: Python Bouncer
 
@@ -429,7 +430,7 @@ animals
 ### List Methods
 
 Python provides us with an extensive library of list methods we can use to
-traverse and manipulate arrays.
+traverse and manipulate lists.
 
 * The Python [documentation](https://docs.python.org/3/tutorial/datastructures.html) for `List` is a great resource for learning more about these methods
 * Can't go over them all, but chances are if you could do it in JavaScript then you can do it in Python.
@@ -483,7 +484,7 @@ sorted(numbers)
 
 #### `.remove()`
 
-* Removes an argument from an array
+* Removes an argument from a list
 * If there are multiple instances of that argument, it will delete just the first.
 
 ```py
@@ -544,6 +545,9 @@ Returns a `dict_keys` structure with all the keys in the dictionary. Can easily 
 ```py
 wdi_class.keys()
 # => dict_keys(['teacher', 'students', 'classroom', 'in_session', 'schedule'])
+
+list(wdi_class.keys())
+# => ['teacher', 'students', 'classroom', 'in_session', 'schedule']
 ```
 
 ## Ranges
@@ -551,7 +555,7 @@ wdi_class.keys()
 Use ranges to quickly generate lists of numbers.
 
 * Parentheses
-* Min and max value - 1 inside `range`
+* Min and max value - 1 inside `range`. Range is not inclusive, meaning that it includes numbers up until the second parameter but not the second parameter itself, simliar to a `<` in a for loop.
 * Generate list using `list()` function
 
 ```py
@@ -578,6 +582,7 @@ def double(number):
 * `def` - the Python equivalent of `function`
 * `double` - the function name in the above example
 * `number` - the parameter name in the above example
+* Use a `:` instead of curly brackets `{}`
 
 We invoke it like this:
 
@@ -606,7 +611,7 @@ double()
 
 [Temperature Converter (Python)](https://git.generalassemb.ly/ga-dc-wdi-python/temperature-converter-python)
 
-## Compare and Contrast, Part 2
+## Compare and Contrast
 
 <img src="https://media.giphy.com/media/l4FGw4d101Sa0pGTe/giphy.gif" margin-left="24%"/>
 
