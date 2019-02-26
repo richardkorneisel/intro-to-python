@@ -343,6 +343,8 @@ Pretty similar to JavaScript, with some differences:
 * Indentation matters! 4 spaces is the standard indent.
 
 Here's an example where we check for height at a roller coaster:
+> Write the above code in a `roller_coaster.py` file and run it from the
+> command line.
 
 ```py
 print("Welcome to the Iron Rattler! How tall are you (in feet)?")
@@ -355,9 +357,6 @@ elif height < 7:
 else:
     print("If you value your head, you should not get on this ride.")
 ```
-
-> Write the above code in a `roller_coaster.py` file and run it from the
-> command line.
 
 ## We Do: Python Bouncer
 
