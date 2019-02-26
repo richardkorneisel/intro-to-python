@@ -555,7 +555,7 @@ list(wdi_class.keys())
 Use ranges to quickly generate lists of numbers.
 
 * Parentheses
-* Min and max value - 1 inside `range`
+* Min and max value - 1 inside `range`. Range is not inclusive, meaning that it includes numbers up until the second parameter but not the second parameter itself, simliar to a `<` in a for loop.
 * Generate list using `list()` function
 
 ```py
