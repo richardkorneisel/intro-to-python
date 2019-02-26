@@ -430,7 +430,7 @@ animals
 ### List Methods
 
 Python provides us with an extensive library of list methods we can use to
-traverse and manipulate arrays.
+traverse and manipulate lists.
 
 * The Python [documentation](https://docs.python.org/3/tutorial/datastructures.html) for `List` is a great resource for learning more about these methods
 * Can't go over them all, but chances are if you could do it in JavaScript then you can do it in Python.
