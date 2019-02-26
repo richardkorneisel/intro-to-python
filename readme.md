@@ -188,7 +188,7 @@ Python uses similar arithmetic operators to JavaScript
 # => 10
 
 30 / 5 # Division
-# => 6.2
+# => 6.0
 
 31 // 5 # Note: integer division
 # => 6
