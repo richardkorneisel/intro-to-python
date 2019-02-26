@@ -103,7 +103,7 @@ exit()                # quit Python REPL
 
 We'll use IPython for the first portion of this lesson.
 
-## Fundamental Data Types
+## Fundamental Characteristics of Python
 
 ### Variables
 
