@@ -545,6 +545,9 @@ Returns a `dict_keys` structure with all the keys in the dictionary. Can easily 
 ```py
 wdi_class.keys()
 # => dict_keys(['teacher', 'students', 'classroom', 'in_session', 'schedule'])
+
+list(wdi_class.keys())
+# => ['teacher', 'students', 'classroom', 'in_session', 'schedule']
 ```
 
 ## Ranges
