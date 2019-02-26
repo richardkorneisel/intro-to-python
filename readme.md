@@ -484,7 +484,7 @@ sorted(numbers)
 
 #### `.remove()`
 
-* Removes an argument from an array
+* Removes an argument from a list
 * If there are multiple instances of that argument, it will delete just the first.
 
 ```py
