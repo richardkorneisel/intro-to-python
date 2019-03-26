@@ -358,6 +358,27 @@ else:
     print("If you value your head, you should not get on this ride.")
 ```
 
+## Print and Input (`input` & `output`)
+
+To print out to the console like `console.log()` does in JavaScript, we use the
+`print` function:
+
+```python
+print("Hello, World!")
+# Hello, World!
+```
+
+Python also makes it easy for us to accept user input from the command line
+using `input`:
+
+```python
+user_input = input()
+# => "My input" (Note that this line was typed by the user in the terminal)
+
+user_input
+# => "My input"
+```
+
 ## We Do: Python Bouncer
 
 Back during our first few lessons on JavaScript, you used conditionals and
@@ -379,27 +400,6 @@ Complete the first set of exercises (Exercise I: Data Types) in [this
 repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
 
 ## Break
-
-## Print and Input (`input` & `output`)
-
-To print out to the console like `console.log()` does in JavaScript, we use the
-`print` function:
-
-```python
-print("Hello, World!")
-# Hello, World!
-```
-
-Python also makes it easy for us to accept user input from the command line
-using `input`:
-
-```python
-user_input = input()
-# => "My input" (Note that this line was typed by the user in the terminal)
-
-user_input
-# => "My input"
-```
 
 ## Lists & Collections(15 min / 1:30)
 
