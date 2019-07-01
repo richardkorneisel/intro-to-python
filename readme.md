@@ -99,7 +99,7 @@ IPython or the Python shell. These are both REPLs. Have we used these before?
 pip3 install ipython # install IPython
 ipython               # start IPython REPL
 exit                  # quit IPython
-python                # start Python REPL
+python3                # start Python3 REPL
 exit()                # quit Python REPL
 ```
 
@@ -297,7 +297,8 @@ occupation = "consultant"
 
 F strings are also a brand new way of doing string interpolation in Python - you
 won't see them as often because they're in python 3.6 and newer, but they are
-super helpful.
+super helpful. Check your version with `python3 --version` before trying this or
+it may not work!
 
 ```py
 class_number = 29
@@ -305,6 +306,8 @@ print(f"I am teaching SEI {class_number}.")
 ```
 
 > Note the `f` at the beginning of the string!
+
+This is similar to Javascript template string syntax!
 
 ### Booleans
 
@@ -381,13 +384,7 @@ print("Hello, World!")
 Python also makes it easy for us to accept user input from the command line
 using `input`:
 
-```python
-user_input = input()
-# => "My input" (Note that this line was typed by the user in the terminal)
-
-user_input
-# => "My input"
-```
+![input](assets/user_input.png)
 
 ## We Do: Python Bouncer (20 min / 0:45)
 
@@ -408,8 +405,13 @@ Here's the recap of the bouncer rules:
 
 ## You Do: Data Types Exercises (15 min / 1:00)
 
-Complete the first set of exercises (Exercise I: Data Types) in
-[this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
+Clone down the following lesson:
+
+https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises
+
+Open exercise 1, `data-types.md`. Read the prompts and try to figure out the
+answer. Write your guess in the answer area below each question. Then run the
+code to see if you got it right!
 
 ## Break (10 min / 1:10)
 
@@ -496,8 +498,7 @@ numbers.pop(0)
 
 Python also has a few methods that JS doesn't have:
 
-
-### `list.insert(i, x)`
+### `list.insert(index, value)`
 
 ```
 Insert an item at a given position. The first argument is the index of the element before which to insert, so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).
@@ -510,7 +511,6 @@ numbers.insert(2, 11)
 
 # => [3, 1, 11, 5, 2, 4]
 ```
-
 
 ### `sorted()`
 
@@ -566,6 +566,13 @@ sei_class["teacher"]
 # => "John"
 ```
 
+Note that you can't do this, like you can in javascript!
+
+```py
+sei_class.teacher
+
+# => AttributeError: 'dict' object has no attribute 'teacher'
+```
 Modifying dictionary values:
 
 ```py
@@ -578,6 +585,7 @@ Nested values:
 ```py
 sei_class["schedule"]["morning"]
 ```
+
 
 ### Dictionary Methods
 
@@ -601,7 +609,7 @@ list(sei_class.keys())
 # => ['teacher', 'students', 'classroom', 'in_session', 'schedule']
 ```
 
-Note that `dict_keys` is not a list. It's a specific data type, so it doens't
+Note that `dict_keys` is not a list. It's a specific data type, so it doesn't
 have all the same methods that lists have.
 
 ## Ranges
@@ -617,6 +625,19 @@ Use ranges to quickly generate lists of numbers.
 ```py
 list(range(1, 6))
 # => [1, 2, 3, 4, 5]
+```
+
+You can also use ranges in for loops!
+
+```py
+for i in range(1, 6): 
+  print(i)
+
+# => 1
+# => 2
+# => 3
+# => 4
+# => 5
 ```
 
 ### length
@@ -641,6 +662,8 @@ sei_class = {
 len(sei_class)
 # => 5
 ```
+
+> Note that there is no array.length property!
 
 ## You Do: Data Collections Exercises
 
@@ -713,7 +736,8 @@ challenging to learn programming and a programming language at the same time
 and a programming language (JavaScript), you only need to learn the new
 programming language!
 
-The better you learn a language, the more comfortable you get with it. The more comfortable you get with it, the easier it is to "think" in that language.
+The better you learn a language, the more comfortable you get with it. The more
+comfortable you get with it, the easier it is to "think" in that language.
 
 ## Additional Resources
 
