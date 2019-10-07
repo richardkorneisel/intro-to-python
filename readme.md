@@ -52,6 +52,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 
+_Fun Fact!_ There's an easter egg in the Python interpreter that prints this with the command `import this`.
+
 ### Getting Python
 
 Before we begin, let's ensure Python is installed on your computer:
@@ -573,6 +575,7 @@ sei_class.teacher
 
 # => AttributeError: 'dict' object has no attribute 'teacher'
 ```
+
 Modifying dictionary values:
 
 ```py
@@ -585,7 +588,6 @@ Nested values:
 ```py
 sei_class["schedule"]["morning"]
 ```
-
 
 ### Dictionary Methods
 
@@ -630,7 +632,7 @@ list(range(1, 6))
 You can also use ranges in for loops!
 
 ```py
-for i in range(1, 6): 
+for i in range(1, 6):
   print(i)
 
 # => 1
