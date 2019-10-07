@@ -52,7 +52,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
 
-_Fun Fact!_ There's an easter egg in the Python interpreter that prints this with the command `import this`.
+_Fun Fact!_ There's an easter egg in the Python interpreter that prints this
+with the command `import this`.
 
 ### Getting Python
 
@@ -71,6 +72,13 @@ $ brew install python3
 Note that `python` and `python3` are different commands, and run different
 versions of python. `python` runs python 2, which we're not using for this
 course.
+
+Run this command to see if the default `python` is correctly configured to
+`python3`, which is part of the core Installfest process.
+
+```sh
+$ python --version
+```
 
 ### Interacting with Python
 
