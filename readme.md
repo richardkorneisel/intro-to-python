@@ -80,6 +80,14 @@ Run this command to see if the default `python` is correctly configured to
 $ python --version
 ```
 
+#### If you have issues - make sure your `~/.bash_profile` contains this (from installfest):
+
+  ```bash
+  if command -v pyenv 1>/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+  fi
+  ```
+
 ### Interacting with Python
 
 There are a few ways that we can interact with Python:
