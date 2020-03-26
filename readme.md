@@ -57,6 +57,12 @@ with the command `import this`.
 
 ### Getting Python
 
+[Check out Installfest docs here](https://git.generalassemb.ly/jdr-0127/installfest#install-pyenv)
+
+
+<details>
+  <summary>Additional Instructions if needed</summary>
+
 Before we begin, let's ensure Python is installed on your computer:
 
 ```sh
@@ -87,6 +93,8 @@ $ python --version
     eval "$(pyenv init -)"
   fi
   ```
+  
+  </details>
 
 ### Interacting with Python
 
