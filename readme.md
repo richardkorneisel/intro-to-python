@@ -683,8 +683,8 @@ len(sei_class)
 
 > 15 minutes exercise. 5 minutes review.
 
-Complete the second set of exercises (Exercise II: Data Collections) in
-[this repo](https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises).
+Complete the second set of exercises in the
+[data_collections readme](data_collections.md).
 
 ## Functions
 
@@ -725,7 +725,9 @@ double()
 
 > 15 minutes exercise. 10 minutes review.
 
-[Temperature Converter (Python)](https://git.generalassemb.ly/ga-dc-wdi-python/temperature-converter-python)
+[Temperature Converter (Python)](temp_converter.md)
+
+Bonus: [Functions](functions.md)
 
 ## Compare and Contrast
 
