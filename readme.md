@@ -423,10 +423,6 @@ Here's the recap of the bouncer rules:
 
 ## You Do: Data Types Exercises (15 min / 1:00)
 
-Clone down the following lesson:
-
-https://git.generalassemb.ly/ga-dc-wdi-python/python-basics-exercises
-
 Open exercise 1, `data-types.md`. Read the prompts and try to figure out the
 answer. Write your guess in the answer area below each question. Then run the
 code to see if you got it right!
