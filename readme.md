@@ -116,6 +116,8 @@ python3 app.py   # Run that Python file
 > NOTE: Running an empty Python file will not result in anything, so don't worry
 > if nothing happens when you run `python3 app.py` above.
 
+If you're inside IPython you can run the file like so: `run app.py`
+
 #### By REPL (Read-Evaluate-Print-Loop)
 
 The second way that we can interact with Python code is with a tools like
@@ -417,11 +419,12 @@ using `input`:
 Back during our first few lessons on JavaScript, you used conditionals and
 variables to create a Bouncer.
 
-We'll now write a program in Python to do the same! Make a Python file for this
-in your sandbox called `bouncer.py`
+We'll now write a program in Python to do the same! Make a Python file in this repo called `bouncer.py`
 
 Here's the recap of the bouncer rules:
 
+> Ask the person for their age and assign the value to an `age` variable
+>
 > If the age variable is below 21, the program should output that the person
 > cannot enter because they are too young, if they are over 21 they can enter,
 > and if age is not a number it outputs an error.
