@@ -57,7 +57,7 @@ with the command `import this`.
 
 ### Getting Python
 
-We will be using Anaconda to program in Python. [Install the 64-Bit Graphical Installer](https://www.anaconda.com/products/individual)
+We will be using Anaconda to program in Python. [Download the 64-Bit Graphical Installer](https://www.anaconda.com/products/individual)
 
 
 <details>
@@ -166,39 +166,11 @@ Notice a few other things about the above block of code:
 While your code will work if you close a line with `;`, common practice is not
 to use them.
 
-## You Do: Data Types (20 min / 0:25)
+## Data Types
 
-Start the IPython REPL in your terminal and start working through the prompts
+Start Anaconda, open Spyder, and we'll start working through the prompts
 below.
 
-<details>
-<summary>Why do we have to read all this ourselves?</summary>
-
-This is part of the gradual release of responsibility that we have discussed and
-that you have experienced during your projects, this is the part where you
-become developers and you don't rely on others to teach you. Developers have to
-teach themselves all the time, right now you are doing that in an environment
-where you have support.
-
-While we could re-teach you what numbers, strings, conditionals, etc. are like
-in Python, you know enough about programming languages from your experience with
-JavaScript to pick up on this information pretty quickly on your own. Honestly,
-if we taught it to you, you'd get bored really quickly.
-
-Because of this, the peculiarities of Python will be apparent. These are the
-things you need to be aware of in the next few classes.
-
-I will come by and check your understanding one-on-one and ask you questions
-
-</details>
-
-<details>
-<summary>Do I have to do the exercises? Can't I just read the code?</summary>
-
-Just reading the code wont lead to learning it, so type everything out into the
-IPython REPL!
-
-</details>
 
 ### Everything Is An Object!
 
@@ -418,7 +390,7 @@ using `input`:
 
 ![input](assets/user_input.png)
 
-## We Do: Python Bouncer (20 min / 0:45)
+## Python Bouncer (20 min)
 
 Back during our first few lessons on JavaScript, you used conditionals and
 variables to create a Bouncer.
@@ -436,7 +408,7 @@ Here's the recap of the bouncer rules:
 > Bonus: if age is 18 or older, but under 21, output that the person can enter
 > the bar but cannot drink!
 
-## You Do: Data Types Exercises (15 min / 1:00)
+## Data Types Exercises (15 min)
 
 Open exercise 1, `data-types.md`. Read the prompts and try to figure out the
 answer. Write your guess in the answer area below each question. Then run the
@@ -444,7 +416,7 @@ code to see if you got it right!
 
 ## Break (10 min / 1:10)
 
-## Lists & Collections(15 min / 1:30)
+## Lists & Collections
 
 An ordered collection of related values. Same syntax as JavaScript arrays. The
 data type is called a **list**.
@@ -773,7 +745,6 @@ comfortable you get with it, the easier it is to "think" in that language.
 ## Additional Resources
 
 - [Python Docs](https://docs.python.org/3/)
-- [Python Starter](https://git.generalassemb.ly/dc-wdi-python-django/python-starter)
 - [Python Beginner Tutorial (Docs)](https://docs.python.org/3/tutorial/index.html)
 
 ## Bonus
