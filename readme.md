@@ -57,11 +57,12 @@ with the command `import this`.
 
 ### Getting Python
 
-[Check out Installfest docs here](https://git.generalassemb.ly/jdr-0127/installfest#install-pyenv)
+We will be using Anaconda to program in Python. [Install the 64-Bit Graphical Installer](https://www.anaconda.com/products/individual)
 
 
 <details>
-  <summary>Additional Instructions if needed</summary>
+  <summary>Instructions for installing/configuring Python in terminal</summary>
+[Check out Installfest docs here](https://git.generalassemb.ly/john-deere-sei-7/installfest)
 
 Before we begin, let's ensure Python is installed on your computer:
 
@@ -96,8 +97,10 @@ $ python --version
   
   </details>
 
-### Interacting with Python
 
+<details>
+  <summary>Interacting with Python in Terminal</summary>
+  
 There are a few ways that we can interact with Python:
 
 #### By File
@@ -136,6 +139,7 @@ exit()                # quit Python REPL
 > graphics.
 
 We'll use IPython for the first portion of this lesson.
+</details>
 
 ## Fundamental Characteristics of Python
 
