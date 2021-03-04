@@ -170,9 +170,6 @@ to use them.
 
 ## Data Types
 
-Start Anaconda, open Spyder, and we'll start working through the prompts
-below.
-
 
 ### Everything Is An Object!
 
@@ -362,9 +359,6 @@ Pretty similar to JavaScript, with some differences:
 
 Here's an example where we check for height at a roller coaster:
 
-> Write the above code in a `roller_coaster.py` file and run it from the command
-> line.
-
 ```py
 print("Welcome to the Iron Rattler! How tall are you (in feet)?")
 height = int(input())
@@ -410,7 +404,7 @@ Here's the recap of the bouncer rules:
 > Bonus: if age is 18 or older, but under 21, output that the person can enter
 > the bar but cannot drink!
 
-## Data Types Exercises (15 min)
+## Data Types Exercises (20 min)
 
 Open exercise 1, [data-types.md](data_types.md). Read the prompts and try to figure out the
 answer. Write your guess in the answer area below each question. Then run the
@@ -712,7 +706,7 @@ double()
 
 ## You do: Exercise: Temperature Converter
 
-> 15 minutes exercise. 10 minutes review.
+> 20 minute exercise
 
 [Temperature Converter (Python)](temp_converter.md)
 
