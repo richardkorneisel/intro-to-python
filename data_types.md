@@ -9,9 +9,9 @@
 ```py
 2 ** 3
 ```
-
+print (2 ** 3)
 ```text
-Your answer.
+8
 ```
 
 ---
@@ -19,9 +19,9 @@ Your answer.
 ```py
 ((16 / 4) * (2 + 1)) ** 2
 ```
-
+print(((16 / 4) * (2 + 1)) ** 2)  
 ```text
-Your answer.
+144
 ```
 
 ---
@@ -29,9 +29,9 @@ Your answer.
 ```py
 ("a milli " + "a milli ") * 3
 ```
-
+print(("a milli " + "a milli ") * 3
 ```text
-Your answer.
+a milli 6 x
 ```
 
 ---
@@ -41,7 +41,7 @@ Your answer.
 ```
 
 ```text
-Your answer.
+Error cant divid string by 2
 ```
 
 ---
@@ -50,9 +50,9 @@ Your answer.
 my_favorite_number = 13
 print("My favorite number is: " + my_favorite_number)
 ```
-
+print(f"My favorite number is: {my_favorite_number}")  
 ```text
-Your answer.
+Error mixing string and int
 ```
 
 ---
@@ -63,7 +63,7 @@ print("My favorite number is: {}".format(my_favorite_number))
 ```
 
 ```text
-Your answer.
+will work and print My favorite number is: 13
 ```
 
 ---
@@ -75,9 +75,9 @@ Your answer.
 ```text
 [ ] False
 [ ] 0
-[ ] ""
-[ ] None
-[ ] [ ] (empty array)
+[x] ""
+[x] None
+[x] [ ] (empty array)
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
@@ -93,7 +93,7 @@ if no_name:
 ```
 
 ```text
-Your answer.
+No output
 ```
 
 ---
@@ -105,7 +105,7 @@ if no_name:
 ```
 
 ```text
-Your answer.
+No output
 ```
 
 ---
@@ -117,7 +117,7 @@ if age:
 ```
 
 ```text
-Your answer.
+Error mixed string and int  prints line but no input
 ```
 
 ---
@@ -129,7 +129,7 @@ if age:
 ```
 
 ```text
-Your answer.
+error if number, print out if string
 ```
 
 ### Conditionals
