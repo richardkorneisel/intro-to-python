@@ -16,7 +16,7 @@ By the end of this, developers should be able to:
 - Compare and contrast Python with a previous language
 - Write basic programs in Python
 
-## What is Python? (5 min / 0:05)
+## What is Python?
 
 Python is a high-level, general purpose programming language created by Guido
 van Rossum in 1991. It is the
@@ -143,6 +143,8 @@ We'll use IPython for the first portion of this lesson.
 
 ## Fundamental Characteristics of Python
 
+Please fork and clone this repo before getting started.
+
 ### Variables
 
 Variables in Python are assigned by using a single equals sign (`=`):
@@ -179,7 +181,7 @@ Everything in Python is an **object**.
 - By "object" we mean that everything has its own set of properties and methods
 - Not a new concept. Data types in JavaScript had their own properties and
   methods (e.g., `string.length` or `function.bind()`)
-- You will learn more about this when you dive into Python OOP next week
+- You will learn more about this when you dive into Python OOP tomorrow
 
 ### Numbers
 
@@ -346,7 +348,7 @@ Logical operators are also similar.
 Python's "nothing".
 
 - The equivalent of JavaScript's `null`
-- it is falsey
+- It is falsey
 - Always written with a capital letter: `None`
 
 ### Conditionals
@@ -410,11 +412,11 @@ Here's the recap of the bouncer rules:
 
 ## Data Types Exercises (15 min)
 
-Open exercise 1, `data-types.md`. Read the prompts and try to figure out the
+Open exercise 1, [data-types.md](data_types.md). Read the prompts and try to figure out the
 answer. Write your guess in the answer area below each question. Then run the
 code to see if you got it right!
 
-## Break (10 min / 1:10)
+## Break
 
 ## Lists & Collections
 
